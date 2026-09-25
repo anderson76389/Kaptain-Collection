@@ -9132,8 +9132,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25
             },
             "id": "src-8P50MRSG",
-            "genre": "Anime",
-            "name": "Anime"
+            "genre": "Animés",
+            "name": "Animés"
           },
           {
             "title": "Série animée",
@@ -25571,7 +25571,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-AP4ISXTE",
-        "title": "Anime",
+        "title": "Animés",
         "sources": [
           {
             "title": "Nouveaux films",
@@ -59951,7 +59951,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-b530d60c",
-    "title": "Anime",
+    "title": "Animés",
     "folders": [
       {
         "id": "folder-08IC2WBN",
