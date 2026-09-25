@@ -84,7 +84,7 @@
     "collectionTitle": "Spotlight",
     "folderTitle": "The Prestige Darling",
     "sourceTitle": "The Prestige Darling: Prestige Cinema",
-    "name": "Prestige Cinema",
+    "name": "Prestige Cinéma",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -227,7 +227,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "New Movies",
     "sourceTitle": "New Animation Movies",
-    "name": "Nouveaux films d'animation",
+    "name": "Nouveaux films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -804,7 +804,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "New Series",
     "sourceTitle": "New Animation Series",
-    "name": "Nouvelle série d'animation",
+    "name": "Nouvelle série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -1379,7 +1379,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Trending Movies",
     "sourceTitle": "Trending Animation Movies",
-    "name": "Films d'animation tendance",
+    "name": "Films d'Animation tendance",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -1956,7 +1956,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Trending TV",
     "sourceTitle": "Trending Animation Series",
-    "name": "Série d'animation tendance",
+    "name": "Série d'Animation tendance",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2724,7 +2724,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "All Services Combined",
-    "name": "Top Streaming Series Combined",
+    "name": "Top Streaming Séries Combined",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2741,7 +2741,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Netflix",
-    "name": "Top 10 Netflix Series",
+    "name": "Top 10 Netflix Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2758,7 +2758,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Apple TV+",
-    "name": "Top 10 Apple TV+ Series",
+    "name": "Top 10 Apple TV+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2775,7 +2775,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Hulu",
-    "name": "Top 10 Hulu Series",
+    "name": "Top 10 Hulu Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2792,7 +2792,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Prime Video",
-    "name": "Top 10 Prime Video Series",
+    "name": "Top 10 Prime Video Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2809,7 +2809,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "AMC+",
-    "name": "Top 10 AMC+ Series",
+    "name": "Top 10 AMC+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2826,7 +2826,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Crunchyroll",
-    "name": "Top 10 Crunchyroll Series",
+    "name": "Top 10 Crunchyroll Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2843,7 +2843,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Discovery+",
-    "name": "Top 10 Discovery+ Series",
+    "name": "Top 10 Discovery+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2860,7 +2860,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Disney+",
-    "name": "Top 10 Disney+ Series",
+    "name": "Top 10 Disney+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2877,7 +2877,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "HBO Max",
-    "name": "Top 10 HBO Max Series",
+    "name": "Top 10 HBO Max Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2894,7 +2894,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "MGM+",
-    "name": "Top 10 MGM+ Series",
+    "name": "Top 10 MGM+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2911,7 +2911,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Mubi",
-    "name": "Top 10 Mubi Series",
+    "name": "Top 10 Mubi Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2928,7 +2928,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Paramount+",
-    "name": "Top 10 Paramount+ Series",
+    "name": "Top 10 Paramount+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2945,7 +2945,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Peacock",
-    "name": "Top 10 Peacock Series",
+    "name": "Top 10 Peacock Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2962,7 +2962,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Pluto TV",
-    "name": "Top 10 Pluto TV Series",
+    "name": "Top 10 Pluto Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2979,7 +2979,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Shudder",
-    "name": "Top 10 Shudder Series",
+    "name": "Top 10 Shudder Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -2996,7 +2996,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Starz",
-    "name": "Top 10 Starz Series",
+    "name": "Top 10 Starz Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -3013,7 +3013,7 @@
     "collectionTitle": "Discover",
     "folderTitle": "Top Series",
     "sourceTitle": "Tubi TV",
-    "name": "Top 10 Tubi TV Series",
+    "name": "Top 10 Tubi Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -3046,7 +3046,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Netflix",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Netflix Series",
+    "name": "Top 10 Netflix Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -3396,7 +3396,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Netflix",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -3429,7 +3429,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Netflix",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -3462,7 +3462,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Netflix",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -4740,7 +4740,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Apple TV+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Apple TV+ Series",
+    "name": "Top 10 Apple TV+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -5090,7 +5090,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Apple TV+",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -5123,7 +5123,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Apple TV+",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -6194,7 +6194,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Hulu",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Hulu Series",
+    "name": "Top 10 Hulu Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -6544,7 +6544,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Hulu",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -6577,7 +6577,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Hulu",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -6610,7 +6610,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Hulu",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -7853,7 +7853,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Prime Video",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Prime Video Series",
+    "name": "Top 10 Prime Video Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -8204,7 +8204,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Prime Video",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -8237,7 +8237,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Prime Video",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -8270,7 +8270,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Prime Video",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -9513,7 +9513,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "AMC+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 AMC+ Series",
+    "name": "Top 10 AMC+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -9863,7 +9863,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "AMC+",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -9896,7 +9896,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "AMC+",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -11416,7 +11416,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Criterion",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -11449,7 +11449,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Criterion",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -12044,7 +12044,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Crunchyroll",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Crunchyroll Series",
+    "name": "Top 10 Crunchyroll Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -12374,7 +12374,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Crunchyroll",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -12406,7 +12406,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Crunchyroll",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -12438,7 +12438,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Crunchyroll",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -13053,7 +13053,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Discovery+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Discovery+ Series",
+    "name": "Top 10 Discovery+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -13524,7 +13524,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Disney+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Disney+ Series",
+    "name": "Top 10 Disney+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -13873,7 +13873,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Disney+",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -13906,7 +13906,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Disney+",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -13939,7 +13939,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Disney+",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -15210,7 +15210,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "HBO Max",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 HBO Max Series",
+    "name": "Top 10 HBO Max Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -15559,7 +15559,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "HBO Max",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -15592,7 +15592,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "HBO Max",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -15625,7 +15625,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "HBO Max",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -16960,7 +16960,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "MGM+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 MGM+ Series",
+    "name": "Top 10 MGM+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -17310,7 +17310,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "MGM+",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -17343,7 +17343,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "MGM+",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -18415,7 +18415,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Mubi",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Mubi Series",
+    "name": "Top 10 Mubi Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -18599,7 +18599,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Mubi",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -18632,7 +18632,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Mubi",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -19158,7 +19158,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Paramount+",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Paramount+ Series",
+    "name": "Top 10 Paramount+ Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -19508,7 +19508,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Paramount+",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -19541,7 +19541,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Paramount+",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -20749,7 +20749,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Peacock",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Peacock Series",
+    "name": "Top 10 Peacock Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -21099,7 +21099,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Peacock",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -21132,7 +21132,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Peacock",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -22235,7 +22235,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Pluto TV",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Pluto TV Series",
+    "name": "Top 10 Pluto Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -22586,7 +22586,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Pluto TV",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -22619,7 +22619,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Pluto TV",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -22652,7 +22652,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Pluto TV",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -23861,7 +23861,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Shudder",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Shudder Series",
+    "name": "Top 10 Shudder Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -24431,7 +24431,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Starz",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Starz Series",
+    "name": "Top 10 Starz Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -24781,7 +24781,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Starz",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -24814,7 +24814,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Starz",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -25884,7 +25884,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Tubi TV",
     "sourceTitle": "Top 10 Series",
-    "name": "Top 10 Tubi TV Series",
+    "name": "Top 10 Tubi Séries",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -26236,7 +26236,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Tubi TV",
     "sourceTitle": "Animation Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -26269,7 +26269,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Tubi TV",
     "sourceTitle": "Animation Series",
-    "name": "Série d'animation",
+    "name": "Série d'Animation",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -26302,7 +26302,7 @@
     "collectionTitle": "Streaming Services",
     "folderTitle": "Tubi TV",
     "sourceTitle": "Anime Movies",
-    "name": "Films d'animation",
+    "name": "Films d'Animation",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -41826,7 +41826,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "80s & 90s Vibes",
     "sourceTitle": "90s Cult & Indie Hits",
-    "name": "Succès cultes et indépendants des années 90",
+    "name": "Succès cultes et indépendants des années 90",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61229,7 +61229,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Akira Kurosawa",
     "sourceTitle": "Akira Kurosawa (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61291,7 +61291,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Alejandro González Iñárritu",
     "sourceTitle": "Alejandro González Iñárritu (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61323,7 +61323,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Alex Garland",
     "sourceTitle": "Alex Garland (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61385,7 +61385,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Alfonso Cuarón",
     "sourceTitle": "Alfonso Cuarón (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61417,7 +61417,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Alfred Hitchcock",
     "sourceTitle": "Alfred Hitchcock (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61479,7 +61479,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Antoine Fuqua",
     "sourceTitle": "Antoine Fuqua (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61541,7 +61541,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Ari Aster",
     "sourceTitle": "Ari Aster (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61603,7 +61603,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Billy Wilder",
     "sourceTitle": "Billy Wilder (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61665,7 +61665,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Bong Joon Ho",
     "sourceTitle": "Bong Joon Ho (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61727,7 +61727,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Brian De Palma",
     "sourceTitle": "Brian De Palma (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61789,7 +61789,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Chad Stahelski",
     "sourceTitle": "Chad Stahelski (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61851,7 +61851,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Christopher Nolan",
     "sourceTitle": "Christopher Nolan (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61913,7 +61913,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Clint Eastwood",
     "sourceTitle": "Clint Eastwood (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -61975,7 +61975,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Damien Chazelle",
     "sourceTitle": "Damien Chazelle (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62037,7 +62037,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Daniel Scheinert",
     "sourceTitle": "Daniel Scheinert (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62099,7 +62099,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Danny Boyle",
     "sourceTitle": "Danny Boyle (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62161,7 +62161,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Darren Aronofsky",
     "sourceTitle": "Darren Aronofsky (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62193,7 +62193,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "David Cronenberg",
     "sourceTitle": "David Cronenberg (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62255,7 +62255,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "David Fincher",
     "sourceTitle": "David Fincher (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62317,7 +62317,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "David Lynch",
     "sourceTitle": "David Lynch (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62379,7 +62379,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Denis Villeneuve",
     "sourceTitle": "Denis Villeneuve (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62441,7 +62441,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Edgar Wright",
     "sourceTitle": "Edgar Wright (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62503,7 +62503,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Emerald Fennell",
     "sourceTitle": "Emerald Fennell (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62565,7 +62565,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Francis Ford Coppola",
     "sourceTitle": "Francis Ford Coppola (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62627,7 +62627,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "George Lucas",
     "sourceTitle": "George Lucas (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62689,7 +62689,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "George Miller",
     "sourceTitle": "George Miller (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62751,7 +62751,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Gore Verbinski",
     "sourceTitle": "Gore Verbinski (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62813,7 +62813,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Greta Gerwig",
     "sourceTitle": "Greta Gerwig (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62875,7 +62875,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Guillermo del Toro",
     "sourceTitle": "Guillermo del Toro (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62937,7 +62937,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Guy Ritchie",
     "sourceTitle": "Guy Ritchie (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -62999,7 +62999,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Hayao Miyazaki",
     "sourceTitle": "Hayao Miyazaki (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63061,7 +63061,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "James Cameron",
     "sourceTitle": "James Cameron (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63123,7 +63123,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "James Gunn",
     "sourceTitle": "James Gunn (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63185,7 +63185,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "James Wan",
     "sourceTitle": "James Wan (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63247,7 +63247,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Joel Coen",
     "sourceTitle": "Joel Coen (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63309,7 +63309,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "John Carpenter",
     "sourceTitle": "John Carpenter (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63371,7 +63371,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "John Hughes",
     "sourceTitle": "John Hughes (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63433,7 +63433,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Jonathan Demme",
     "sourceTitle": "Jonathan Demme (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63495,7 +63495,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Jordan Peele",
     "sourceTitle": "Jordan Peele (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63557,7 +63557,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Kathryn Bigelow",
     "sourceTitle": "Kathryn Bigelow (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63619,7 +63619,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Luc Besson",
     "sourceTitle": "Luc Besson (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63681,7 +63681,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Martin McDonagh",
     "sourceTitle": "Martin McDonagh (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63743,7 +63743,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Martin Scorsese",
     "sourceTitle": "Martin Scorsese (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63805,7 +63805,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Mel Brooks",
     "sourceTitle": "Mel Brooks (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63867,7 +63867,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Michael Mann",
     "sourceTitle": "Michael Mann (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63929,7 +63929,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Mike Flanagan",
     "sourceTitle": "Mike Flanagan (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -63991,7 +63991,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Oliver Stone",
     "sourceTitle": "Oliver Stone (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64023,7 +64023,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Park Chan-wook",
     "sourceTitle": "Park Chan-wook (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64055,7 +64055,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Paul Thomas Anderson",
     "sourceTitle": "Paul Thomas Anderson (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64117,7 +64117,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Paul Verhoeven",
     "sourceTitle": "Paul Verhoeven (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64179,7 +64179,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Pedro Almodóvar",
     "sourceTitle": "Pedro Almodóvar (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64211,7 +64211,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Peter Jackson",
     "sourceTitle": "Peter Jackson (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64273,7 +64273,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Quentin Tarantino",
     "sourceTitle": "Quentin Tarantino (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64335,7 +64335,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Richard Linklater",
     "sourceTitle": "Richard Linklater (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64367,7 +64367,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Ridley Scott",
     "sourceTitle": "Ridley Scott (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64429,7 +64429,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Rob Reiner",
     "sourceTitle": "Rob Reiner (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64461,7 +64461,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Robert Eggers",
     "sourceTitle": "Robert Eggers (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64523,7 +64523,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Robert Zemeckis",
     "sourceTitle": "Robert Zemeckis (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64585,7 +64585,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Roland Emmerich",
     "sourceTitle": "Roland Emmerich (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64647,7 +64647,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Ron Howard",
     "sourceTitle": "Ron Howard (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64709,7 +64709,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Ryan Coogler",
     "sourceTitle": "Ryan Coogler (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64771,7 +64771,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Sam Esmail",
     "sourceTitle": "Sam Esmail (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64833,7 +64833,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Sam Mendes",
     "sourceTitle": "Sam Mendes (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64865,7 +64865,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Sam Raimi",
     "sourceTitle": "Sam Raimi (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64927,7 +64927,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Satoshi Kon",
     "sourceTitle": "Satoshi Kon (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -64989,7 +64989,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Sergio Leone",
     "sourceTitle": "Sergio Leone (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65021,7 +65021,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Sidney Lumet",
     "sourceTitle": "Sidney Lumet (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65083,7 +65083,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Spike Jonze",
     "sourceTitle": "Spike Jonze (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65145,7 +65145,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Spike Lee",
     "sourceTitle": "Spike Lee (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65207,7 +65207,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Stanley Kubrick",
     "sourceTitle": "Stanley Kubrick (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65269,7 +65269,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Steven Soderbergh",
     "sourceTitle": "Steven Soderbergh (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65301,7 +65301,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Steven Spielberg",
     "sourceTitle": "Steven Spielberg (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65363,7 +65363,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Taika Waititi",
     "sourceTitle": "Taika Waititi (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65425,7 +65425,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Terry Gilliam",
     "sourceTitle": "Terry Gilliam (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65487,7 +65487,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "The Wachowskis",
     "sourceTitle": "The Wachowskis (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65549,7 +65549,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Tim Burton",
     "sourceTitle": "Tim Burton (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65611,7 +65611,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Todd Phillips",
     "sourceTitle": "Todd Phillips (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65643,7 +65643,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Tony Scott",
     "sourceTitle": "Tony Scott (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65705,7 +65705,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Vince Gilligan",
     "sourceTitle": "Vince Gilligan (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65767,7 +65767,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Wes Anderson",
     "sourceTitle": "Wes Anderson (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65829,7 +65829,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Wes Craven",
     "sourceTitle": "Wes Craven (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65891,7 +65891,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Wong Kar-wai",
     "sourceTitle": "Wong Kar-wai (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -65953,7 +65953,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Yorgos Lanthimos",
     "sourceTitle": "Yorgos Lanthimos (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -66015,7 +66015,7 @@
     "collectionTitle": "Legendary Directors",
     "folderTitle": "Zack Snyder",
     "sourceTitle": "Zack Snyder (Best Of)",
-    "name": "Best Of",
+    "name": "Le meilleur de",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -69308,7 +69308,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "2020s Movies",
     "sourceTitle": "Top Rated 2020s TV Shows",
-    "name": "Émissions TV des années 2020 les mieux notées",
+    "name": "Émissions TV des années 2020 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -69702,7 +69702,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "10s Movies",
     "sourceTitle": "Popular 2010s TV Shows",
-    "name": "Émissions TV populaires des années 2010",
+    "name": "Émissions TV populaires des années 2010",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -69766,7 +69766,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "10s Movies",
     "sourceTitle": "Top Rated 2010s TV Shows",
-    "name": "Émissions TV des années 2010 les mieux notées",
+    "name": "Émissions TV des années 2010 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -70682,7 +70682,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "90s Movies",
     "sourceTitle": "Top Rated 1990s TV Shows",
-    "name": "Émissions TV des années 90 les mieux notées",
+    "name": "Émissions TV des années 90 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -71140,7 +71140,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "80s Movies",
     "sourceTitle": "Top Rated 1980s TV Shows",
-    "name": "Émissions TV des années 80 les mieux notées",
+    "name": "Émissions TV des années 80 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -71598,7 +71598,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "70s Movies",
     "sourceTitle": "Top Rated 1970s TV Shows",
-    "name": "Séries TV des années 1970 les mieux notées",
+    "name": "Séries TV des années 1970 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -72056,7 +72056,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "60s Movies",
     "sourceTitle": "Top Rated 1960s TV Shows",
-    "name": "Séries TV des années 60 les mieux notées",
+    "name": "Séries TV des années 60 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -72450,7 +72450,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "50s Movies",
     "sourceTitle": "Popular 1950s TV Shows",
-    "name": "Séries TV populaires des années 1950",
+    "name": "Séries TV populaires des années 1950",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -72514,7 +72514,7 @@
     "collectionTitle": "By Decade",
     "folderTitle": "50s Movies",
     "sourceTitle": "Top Rated 1950s TV Shows",
-    "name": "Séries TV des années 1950 les mieux notées",
+    "name": "Séries TV des années 1950 les mieux notées",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -72942,7 +72942,7 @@
     "collectionTitle": "Anime",
     "folderTitle": "Discover Anime",
     "sourceTitle": "Trending Anime Films",
-    "name": "Films d'animation tendance",
+    "name": "Films d'Animation tendance",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -72975,7 +72975,7 @@
     "collectionTitle": "Anime",
     "folderTitle": "Discover Anime",
     "sourceTitle": "Top Rated Anime Films",
-    "name": "Films d'animation les mieux notés",
+    "name": "Films d'Animation les mieux notés",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -73311,7 +73311,7 @@
     "collectionTitle": "Anime",
     "folderTitle": "Studio Spotlight",
     "sourceTitle": "Kyoto Animation Visual Gems",
-    "name": "Joyaux visuels de l'animation de Kyoto",
+    "name": "Joyaux visuels de l'Animation de Kyoto",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -74123,7 +74123,7 @@
     "collectionTitle": "Awards",
     "folderTitle": "Academy Awards",
     "sourceTitle": "Best Animated Feature Winners 2001-2025",
-    "name": "Gagnants du meilleur long métrage d’animation 2001-2025",
+    "name": "Gagnants du meilleur long métrage d’Animation 2001-2025",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -74140,7 +74140,7 @@
     "collectionTitle": "Awards",
     "folderTitle": "Academy Awards",
     "sourceTitle": "Best Animated Short Film Winners 1932-2025",
-    "name": "Gagnants du meilleur court métrage d’animation 1932-2025",
+    "name": "Gagnants du meilleur court métrage d’Animation 1932-2025",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -74667,7 +74667,7 @@
     "collectionTitle": "Awards",
     "folderTitle": "Golden Globes",
     "sourceTitle": "Best Animated Feature Film Winners 2006-2025",
-    "name": "Gagnants du meilleur long métrage d’animation 2006-2025",
+    "name": "Gagnants du meilleur long métrage d’Animation 2006-2025",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -88866,7 +88866,7 @@
     "collectionTitle": "Kids and Family",
     "folderTitle": "Discover Family",
     "sourceTitle": "Top Rated Animated Family Films",
-    "name": "Films d'animation familiaux les mieux notés",
+    "name": "Films d'Animation familiaux les mieux notés",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -89059,7 +89059,7 @@
     "collectionTitle": "Kids and Family",
     "folderTitle": "Animated Studio Spotlight",
     "sourceTitle": "Pixar Animation Classics",
-    "name": "Classiques de l'animation Pixar",
+    "name": "Classiques de l'Animation Pixar",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -89091,7 +89091,7 @@
     "collectionTitle": "Kids and Family",
     "folderTitle": "Animated Studio Spotlight",
     "sourceTitle": "Walt Disney Animation Gems",
-    "name": "Joyaux d'animation de Walt Disney",
+    "name": "Joyaux d'Animation de Walt Disney",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -89187,7 +89187,7 @@
     "collectionTitle": "Kids and Family",
     "folderTitle": "Animated Studio Spotlight",
     "sourceTitle": "Sony Pictures Animation Hits",
-    "name": "Succès d'animation de Sony Pictures",
+    "name": "Succès d'Animation de Sony Pictures",
     "type": "movie",
     "source": "tmdb",
     "metadata": {

@@ -73,7 +73,7 @@ window.NUVIO_DATABASE = [
         "catalogSources": [],
         "sources": [
           {
-            "title": "La centrale électrique : A24",
+            "title": "La centrale électrique : A24",
             "name": "La centrale électrique",
             "genre": "Tout",
             "provider": "tmdb",
@@ -99,7 +99,7 @@ window.NUVIO_DATABASE = [
         "catalogSources": [],
         "sources": [
           {
-            "title": "La Saga : Collection Alien",
+            "title": "La Saga : Collection Alien",
             "name": "La Saga",
             "genre": "Tout",
             "provider": "tmdb",
@@ -125,7 +125,7 @@ window.NUVIO_DATABASE = [
         "catalogSources": [],
         "sources": [
           {
-            "title": "Le pouls culturel : les superproductions estivales",
+            "title": "Le pouls culturel : les superproductions estivales",
             "name": "Le pouls culturel",
             "genre": "Tout",
             "provider": "tmdb",
@@ -203,7 +203,7 @@ window.NUVIO_DATABASE = [
         "catalogSources": [],
         "sources": [
           {
-            "title": "Retro Rewind : nostalgie de la science-fiction des années 80",
+            "title": "Retro Rewind : nostalgie de la science-fiction des années 80",
             "name": "Rembobinage rétro",
             "genre": "Tout",
             "provider": "tmdb",
@@ -403,7 +403,7 @@ window.NUVIO_DATABASE = [
             "name": "Aventure"
           },
           {
-            "title": "Nouveaux films d'animation",
+            "title": "Nouveaux films d'Animation",
             "sortBy": "primary_release_date.desc",
             "tmdbId": null,
             "filters": {
@@ -755,7 +755,7 @@ window.NUVIO_DATABASE = [
             "name": "Action et aventure"
           },
           {
-            "title": "Nouvelle série d'animation",
+            "title": "Nouvelle série d'Animation",
             "sortBy": "first_air_date.desc",
             "tmdbId": null,
             "filters": {
@@ -1081,7 +1081,7 @@ window.NUVIO_DATABASE = [
             "name": "Aventure"
           },
           {
-            "title": "Films d'animation tendance",
+            "title": "Films d'Animation tendance",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -1433,7 +1433,7 @@ window.NUVIO_DATABASE = [
             "name": "Action et aventure"
           },
           {
-            "title": "Série d'animation tendance",
+            "title": "Série d'Animation tendance",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -2424,7 +2424,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -2442,17 +2442,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-JE6OKD54",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-OMCTPFXC",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "8|1796",
@@ -2469,7 +2469,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -2489,7 +2489,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-QVWYBGHT",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -3685,7 +3685,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -3703,17 +3703,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-VGZZYGX0",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-Y3F221KG",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withNetworks": "2552",
@@ -4741,7 +4741,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -4759,17 +4759,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-NHLCQ1D5",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-IGE178AX",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "15",
@@ -4786,7 +4786,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -4806,7 +4806,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-2NMILW63",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -5985,7 +5985,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -6003,17 +6003,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-RSY5PEV0",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-XXEBDZ07",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "9|2100",
@@ -6030,7 +6030,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -6050,7 +6050,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-JDG89CN4",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -7228,7 +7228,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -7246,17 +7246,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-YCBJY6Q2",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-W3FOT2DP",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "526",
@@ -8396,7 +8396,7 @@ window.NUVIO_DATABASE = [
             "name": "Films d'aventure"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -8414,10 +8414,10 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-AFO12FCN",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -8437,7 +8437,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-ZO2SECLO",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Comédies",
@@ -9076,7 +9076,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -9094,14 +9094,14 @@ window.NUVIO_DATABASE = [
             "name": "Animations"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-DK0OI74S",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "283",
@@ -9118,7 +9118,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -10189,7 +10189,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -10207,17 +10207,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-79X3ZVT8",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-MVQYJCNT",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "337",
@@ -10234,7 +10234,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -10254,7 +10254,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-VS9X242M",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -11458,7 +11458,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -11476,17 +11476,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-C3NC27Y3",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-MROI65RM",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "1899|1825",
@@ -11503,7 +11503,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -11523,7 +11523,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-SR4H2JC5",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -12771,7 +12771,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -12789,10 +12789,10 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-GA5IS34K",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -12812,7 +12812,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-6UZ7619P",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Comédies",
@@ -13737,7 +13737,7 @@ window.NUVIO_DATABASE = [
             "name": "Films d'aventure"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -13755,10 +13755,10 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-7201B59S",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -13778,7 +13778,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-9BQ5ZW2E",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Comédies",
@@ -14408,7 +14408,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -14426,17 +14426,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-6BRZMM6L",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-6YO4TC69",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "2303",
@@ -15604,7 +15604,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -15622,17 +15622,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-OPXA6Q35",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-Z3CAWYOA",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "387",
@@ -16720,7 +16720,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -16738,17 +16738,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-Y9MFUK1O",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-GJZLUFNK",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "300",
@@ -16765,7 +16765,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -16785,7 +16785,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-R8VIOKCG",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -18369,7 +18369,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -18387,10 +18387,10 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-YWB55J6V",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -18410,7 +18410,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-9U4LK1F7",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Comédies",
@@ -19459,7 +19459,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -19477,17 +19477,17 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-N9M0UP3T",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
-            "title": "Série d'animation",
+            "title": "Série d'Animation",
             "sortBy": "popularity.desc",
             "sortHow": "asc",
             "provider": "tmdb",
             "mediaType": "TV",
             "id": "src-XPUNA4UM",
             "genre": "Série d'animation",
-            "name": "Série d'animation",
+            "name": "Série d'Animation",
             "tmdbSourceType": "DISCOVER",
             "filters": {
               "withWatchProviders": "73",
@@ -19504,7 +19504,7 @@ window.NUVIO_DATABASE = [
             }
           },
           {
-            "title": "Films d'animation",
+            "title": "Films d'Animation",
             "sortBy": "popularity.desc",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -19524,7 +19524,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-QU0EPFME",
             "genre": "Films d'animation",
-            "name": "Films d'animation"
+            "name": "Films d'Animation"
           },
           {
             "title": "Série animée",
@@ -30188,7 +30188,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-6IVNGVWZ",
-            "title": "Succès cultes et indépendants des années 90",
+            "title": "Succès cultes et indépendants des années 90",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -30204,7 +30204,7 @@ window.NUVIO_DATABASE = [
               "without_genres": "16"
             },
             "genre": "Succès cultes et indépendants des années 90",
-            "name": "Succès cultes et indépendants des années 90"
+            "name": "Succès cultes et indépendants des années 90"
           }
         ]
       },
@@ -31761,7 +31761,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Sale Harry"
           },
           {
-            "title": "La collection Fast and Furious",
+            "title": "La Collection Fast and Furious",
             "sortBy": "original",
             "tmdbId": 9485,
             "filters": {},
@@ -31770,7 +31770,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-D0UTU3BO",
             "genre": "La collection Fast and Furious",
-            "name": "La collection Fast and Furious"
+            "name": "La Collection Fast and Furious"
           },
           {
             "title": "Collection James Bond",
@@ -31881,7 +31881,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Sicario"
           },
           {
-            "title": "La collection Bourne",
+            "title": "La Collection Bourne",
             "sortBy": "original",
             "tmdbId": 31562,
             "filters": {},
@@ -31890,10 +31890,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-I82HEPHN",
             "genre": "La collection Bourne",
-            "name": "La collection Bourne"
+            "name": "La Collection Bourne"
           },
           {
-            "title": "La collection du chevalier noir",
+            "title": "La Collection du chevalier noir",
             "sortBy": "original",
             "tmdbId": 263,
             "filters": {},
@@ -31902,10 +31902,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-4WZLQWO5",
             "genre": "La collection du chevalier noir",
-            "name": "La collection du chevalier noir"
+            "name": "La Collection du chevalier noir"
           },
           {
-            "title": "La collection égaliseur",
+            "title": "La Collection égaliseur",
             "sortBy": "original",
             "tmdbId": 523855,
             "filters": {},
@@ -31914,10 +31914,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-JC89VT84",
             "genre": "La collection égaliseur",
-            "name": "La collection égaliseur"
+            "name": "La Collection égaliseur"
           },
           {
-            "title": "La collection Expendables",
+            "title": "La Collection Expendables",
             "sortBy": "original",
             "tmdbId": 126125,
             "filters": {},
@@ -31926,10 +31926,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-EEVMDXP8",
             "genre": "La collection Expendables",
-            "name": "La collection Expendables"
+            "name": "La Collection Expendables"
           },
           {
-            "title": "La collection Karate Kid",
+            "title": "La Collection Karate Kid",
             "sortBy": "original",
             "tmdbId": 8580,
             "filters": {},
@@ -31938,10 +31938,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-IL1ZUB7R",
             "genre": "La collection Karate Kid",
-            "name": "La collection Karate Kid"
+            "name": "La Collection Karate Kid"
           },
           {
-            "title": "La collection Transporteur",
+            "title": "La Collection Transporteur",
             "sortBy": "original",
             "tmdbId": 9518,
             "filters": {},
@@ -31950,7 +31950,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-KJXMGI8B",
             "genre": "La collection Transporteur",
-            "name": "La collection Transporteur"
+            "name": "La Collection Transporteur"
           },
           {
             "title": "Collection Top Gun",
@@ -32483,7 +32483,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection légalement blonde"
           },
           {
-            "title": "Rencontrez la collection Parents",
+            "title": "Rencontrez la Collection Parents",
             "sortBy": "original",
             "tmdbId": 51509,
             "filters": {},
@@ -32492,7 +32492,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-YS5QDZYX",
             "genre": "Rencontrez la collection Parents",
-            "name": "Rencontrez la collection Parents"
+            "name": "Rencontrez la Collection Parents"
           },
           {
             "title": "Collection de vacances de National Lampoon",
@@ -32555,7 +32555,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection de films d'horreur"
           },
           {
-            "title": "La collection gueule de bois",
+            "title": "La Collection gueule de bois",
             "sortBy": "original",
             "tmdbId": 86119,
             "filters": {},
@@ -32564,7 +32564,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-7PTQPI90",
             "genre": "La collection gueule de bois",
-            "name": "La collection gueule de bois"
+            "name": "La Collection gueule de bois"
           },
           {
             "title": "Collection Le monde de Wayne",
@@ -32591,7 +32591,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Zoolander"
           },
           {
-            "title": "Apportez-le sur la collection",
+            "title": "Apportez-le sur la Collection",
             "sortBy": "original",
             "tmdbId": 430186,
             "filters": {},
@@ -32600,7 +32600,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-HDKOPMTS",
             "genre": "Apportez-le sur la collection",
-            "name": "Apportez-le sur la collection"
+            "name": "Apportez-le sur la Collection"
           },
           {
             "title": "Grown Ups Collection",
@@ -32833,7 +32833,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection de flics de Beverly Hills"
           },
           {
-            "title": "La collection des Saints de Boondock",
+            "title": "La Collection des Saints de Boondock",
             "sortBy": "original",
             "tmdbId": 87186,
             "filters": {},
@@ -32842,7 +32842,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-SVB2YHY5",
             "genre": "La collection des Saints de Boondock",
-            "name": "La collection des Saints de Boondock"
+            "name": "La Collection des Saints de Boondock"
           },
           {
             "title": "Collection aux heures de pointe",
@@ -32907,7 +32907,7 @@ window.NUVIO_DATABASE = [
         "title": "Drama Collections",
         "sources": [
           {
-            "title": "La collection Le Parrain",
+            "title": "La Collection Le Parrain",
             "sortBy": "original",
             "tmdbId": 230,
             "filters": {},
@@ -32916,7 +32916,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-31OVM1NJ",
             "genre": "La collection Le Parrain",
-            "name": "La collection Le Parrain"
+            "name": "La Collection Le Parrain"
           },
           {
             "title": "Collection Credo",
@@ -33003,7 +33003,7 @@ window.NUVIO_DATABASE = [
             "name": "Jack Reacher Collection"
           },
           {
-            "title": "La collection des puissants canards",
+            "title": "La Collection des puissants canards",
             "sortBy": "original",
             "tmdbId": 10709,
             "filters": {},
@@ -33012,7 +33012,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-UE28TAM3",
             "genre": "La collection des puissants canards",
-            "name": "La collection des puissants canards"
+            "name": "La Collection des puissants canards"
           },
           {
             "title": "The Before Trilogy",
@@ -33077,7 +33077,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Moi, moche et méchant"
           },
           {
-            "title": "Journal d'une collection Wimpy Kid",
+            "title": "Journal d'une Collection Wimpy Kid",
             "sortBy": "original",
             "tmdbId": 86110,
             "filters": {},
@@ -33086,7 +33086,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-9E5PTU4Y",
             "genre": "Journal d'une collection Wimpy Kid",
-            "name": "Journal d'une collection Wimpy Kid"
+            "name": "Journal d'une Collection Wimpy Kid"
           },
           {
             "title": "Collection Le Monde de Nemo",
@@ -33125,7 +33125,7 @@ window.NUVIO_DATABASE = [
             "name": "Hôtel Transylvanie Collection"
           },
           {
-            "title": "Comment dresser votre collection de dragons",
+            "title": "Comment dresser votre Collection de dragons",
             "sortBy": "original",
             "tmdbId": 89137,
             "filters": {},
@@ -33134,7 +33134,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-NYLK6NW4",
             "genre": "Comment dresser votre collection de dragons",
-            "name": "Comment dresser votre collection de dragons"
+            "name": "Comment dresser votre Collection de dragons"
           },
           {
             "title": "Collection L'Âge de Glace",
@@ -33233,7 +33233,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Chanter"
           },
           {
-            "title": "Spider-Man : Collection Spider-Verse",
+            "title": "Spider-Man : Collection Spider-Verse",
             "sortBy": "original",
             "tmdbId": 573436,
             "filters": {},
@@ -33242,7 +33242,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-4TX6XGO1",
             "genre": "Spider-Man : Collection Spider-Verse",
-            "name": "Spider-Man : Collection Spider-Verse"
+            "name": "Spider-Man : Collection Spider-Verse"
           },
           {
             "title": "Collection La Famille Addams (Animée)",
@@ -33257,7 +33257,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection La Famille Addams (Animée)"
           },
           {
-            "title": "La collection Boss Bébé",
+            "title": "La Collection Boss Bébé",
             "sortBy": "original",
             "tmdbId": 519457,
             "filters": {},
@@ -33266,10 +33266,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-I1DCAVDB",
             "genre": "La collection Boss Bébé",
-            "name": "La collection Boss Bébé"
+            "name": "La Collection Boss Bébé"
           },
           {
-            "title": "La collection Les Indestructibles",
+            "title": "La Collection Les Indestructibles",
             "sortBy": "original",
             "tmdbId": 468222,
             "filters": {},
@@ -33278,10 +33278,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-1BIGHA0B",
             "genre": "La collection Les Indestructibles",
-            "name": "La collection Les Indestructibles"
+            "name": "La Collection Les Indestructibles"
           },
           {
-            "title": "La collection de films Lego",
+            "title": "La Collection de films Lego",
             "sortBy": "original",
             "tmdbId": 325470,
             "filters": {},
@@ -33290,7 +33290,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-4YDJO1RA",
             "genre": "La collection de films Lego",
-            "name": "La collection de films Lego"
+            "name": "La Collection de films Lego"
           },
           {
             "title": "Collection La vie secrète des animaux de compagnie",
@@ -33703,7 +33703,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Les Chroniques de Narnia"
           },
           {
-            "title": "La collection Le Hobbit",
+            "title": "La Collection Le Hobbit",
             "sortBy": "original",
             "tmdbId": 121938,
             "filters": {},
@@ -33712,10 +33712,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-YSNY0U9T",
             "genre": "La collection Le Hobbit",
-            "name": "La collection Le Hobbit"
+            "name": "La Collection Le Hobbit"
           },
           {
-            "title": "La collection Labyrinthe",
+            "title": "La Collection Labyrinthe",
             "sortBy": "original",
             "tmdbId": 295130,
             "filters": {},
@@ -33724,10 +33724,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-KTC653JC",
             "genre": "La collection Labyrinthe",
-            "name": "La collection Labyrinthe"
+            "name": "La Collection Labyrinthe"
           },
           {
-            "title": "La collection Momie",
+            "title": "La Collection Momie",
             "sortBy": "original",
             "tmdbId": 1733,
             "filters": {},
@@ -33736,10 +33736,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-H4FEA0X5",
             "genre": "La collection Momie",
-            "name": "La collection Momie"
+            "name": "La Collection Momie"
           },
           {
-            "title": "La collection Crépuscule",
+            "title": "La Collection Crépuscule",
             "sortBy": "original",
             "tmdbId": 33514,
             "filters": {},
@@ -33748,7 +33748,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-WZ2KZVJF",
             "genre": "La collection Crépuscule",
-            "name": "La collection Crépuscule"
+            "name": "La Collection Crépuscule"
           },
           {
             "title": "Clash of the Titans Collection",
@@ -33969,7 +33969,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection d'Halloween"
           },
           {
-            "title": "La collection Hannibal Lecter",
+            "title": "La Collection Hannibal Lecter",
             "sortBy": "original",
             "tmdbId": 9743,
             "filters": {},
@@ -33978,7 +33978,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-KGPC2APQ",
             "genre": "La collection Hannibal Lecter",
-            "name": "La collection Hannibal Lecter"
+            "name": "La Collection Hannibal Lecter"
           },
           {
             "title": "Collection Hellraiser",
@@ -34089,7 +34089,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection de cris"
           },
           {
-            "title": "La collection de conjuration",
+            "title": "La Collection de conjuration",
             "sortBy": "original",
             "tmdbId": 313086,
             "filters": {},
@@ -34098,10 +34098,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-Q301PWKH",
             "genre": "La collection de conjuration",
-            "name": "La collection de conjuration"
+            "name": "La Collection de conjuration"
           },
           {
-            "title": "La collection Exorciste",
+            "title": "La Collection Exorciste",
             "sortBy": "original",
             "tmdbId": 12263,
             "filters": {},
@@ -34110,10 +34110,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-RLD9RW7Q",
             "genre": "La collection Exorciste",
-            "name": "La collection Exorciste"
+            "name": "La Collection Exorciste"
           },
           {
-            "title": "La collection de rancunes",
+            "title": "La Collection de rancunes",
             "sortBy": "original",
             "tmdbId": 1974,
             "filters": {},
@@ -34122,10 +34122,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-ULH8K0UW",
             "genre": "La collection de rancunes",
-            "name": "La collection de rancunes"
+            "name": "La Collection de rancunes"
           },
           {
-            "title": "La collection Présage",
+            "title": "La Collection Présage",
             "sortBy": "original",
             "tmdbId": 10919,
             "filters": {},
@@ -34134,10 +34134,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-NQTO1F9J",
             "genre": "La collection Présage",
-            "name": "La collection Présage"
+            "name": "La Collection Présage"
           },
           {
-            "title": "La collection Purge",
+            "title": "La Collection Purge",
             "sortBy": "original",
             "tmdbId": 256322,
             "filters": {},
@@ -34146,10 +34146,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-7OPLIUW0",
             "genre": "La collection Purge",
-            "name": "La collection Purge"
+            "name": "La Collection Purge"
           },
           {
-            "title": "La collection de bagues",
+            "title": "La Collection de bagues",
             "sortBy": "original",
             "tmdbId": 14563,
             "filters": {},
@@ -34158,7 +34158,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-MBFX4WEE",
             "genre": "La collection de bagues",
-            "name": "La collection de bagues"
+            "name": "La Collection de bagues"
           },
           {
             "title": "Collection de tremblements",
@@ -34633,7 +34633,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Spider-Man"
           },
           {
-            "title": "Star Trek : Collection de réalité alternative",
+            "title": "Star Trek : Collection de réalité alternative",
             "sortBy": "original",
             "tmdbId": 115575,
             "filters": {},
@@ -34642,7 +34642,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-WQXHHOAK",
             "genre": "Star Trek : Collection de réalité alternative",
-            "name": "Star Trek : Collection de réalité alternative"
+            "name": "Star Trek : Collection de réalité alternative"
           },
           {
             "title": "Collection Star Wars",
@@ -34669,7 +34669,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection de soldats de l'espace"
           },
           {
-            "title": "La collection Terminateur",
+            "title": "La Collection Terminateur",
             "sortBy": "original",
             "tmdbId": 528,
             "filters": {},
@@ -34678,10 +34678,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-OQVPDMTW",
             "genre": "La collection Terminateur",
-            "name": "La collection Terminateur"
+            "name": "La Collection Terminateur"
           },
           {
-            "title": "La collection des jeux de la faim",
+            "title": "La Collection des jeux de la faim",
             "sortBy": "original",
             "tmdbId": 131635,
             "filters": {},
@@ -34690,10 +34690,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-19RR9MLL",
             "genre": "La collection des jeux de la faim",
-            "name": "La collection des jeux de la faim"
+            "name": "La Collection des jeux de la faim"
           },
           {
-            "title": "La collection Matrice",
+            "title": "La Collection Matrice",
             "sortBy": "original",
             "tmdbId": 2344,
             "filters": {},
@@ -34702,7 +34702,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-2VEAH9TD",
             "genre": "La collection Matrice",
-            "name": "La collection Matrice"
+            "name": "La Collection Matrice"
           },
           {
             "title": "Collection de transformateurs",
@@ -34765,7 +34765,7 @@ window.NUVIO_DATABASE = [
             "name": "Planet of the Apes (Reboot) Collection"
           },
           {
-            "title": "Cloverfield collection",
+            "title": "Cloverfield Collection",
             "sortBy": "original",
             "tmdbId": 1697536,
             "filters": {},
@@ -34774,7 +34774,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-C0VFELD1",
             "genre": "Cloverfield collection",
-            "name": "Cloverfield collection"
+            "name": "Cloverfield Collection"
           },
           {
             "title": "The Meg Collection",
@@ -34789,7 +34789,7 @@ window.NUVIO_DATABASE = [
             "name": "The Meg Collection"
           },
           {
-            "title": "Star Trek: The Original Series Movies",
+            "title": "Star Trek: The Original Séries Films",
             "sortBy": "original",
             "tmdbId": 151,
             "filters": {},
@@ -34798,10 +34798,10 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-B74E14DF",
             "genre": "Star Trek: The Original Series Movies",
-            "name": "Star Trek: The Original Series Movies"
+            "name": "Star Trek: The Original Séries Films"
           },
           {
-            "title": "Star Trek: The Next Generation Movies",
+            "title": "Star Trek: The Next Generation Films",
             "sortBy": "original",
             "tmdbId": 115570,
             "filters": {},
@@ -34810,7 +34810,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-389A35EC",
             "genre": "Star Trek: The Next Generation Movies",
-            "name": "Star Trek: The Next Generation Movies"
+            "name": "Star Trek: The Next Generation Films"
           },
           {
             "title": "Alien vs. Predator Collection",
@@ -34947,7 +34947,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection Sicario"
           },
           {
-            "title": "La collection Purge",
+            "title": "La Collection Purge",
             "sortBy": "original",
             "tmdbId": 256322,
             "filters": {},
@@ -34956,7 +34956,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-64E5MB7J",
             "genre": "La collection Purge",
-            "name": "La collection Purge"
+            "name": "La Collection Purge"
           },
           {
             "title": "Collection de destinations finales",
@@ -35165,7 +35165,7 @@ window.NUVIO_DATABASE = [
             "name": "Collection des disparus au combat"
           },
           {
-            "title": "La collection des douzaines sales",
+            "title": "La Collection des douzaines sales",
             "sortBy": "original",
             "tmdbId": 124492,
             "filters": {},
@@ -35174,7 +35174,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-OZ1L7YL4",
             "genre": "La collection des douzaines sales",
-            "name": "La collection des douzaines sales"
+            "name": "La Collection des douzaines sales"
           }
         ],
         "hideTitle": true,
@@ -35822,7 +35822,7 @@ window.NUVIO_DATABASE = [
         "title": "Bring It On",
         "sources": [
           {
-            "title": "Apportez-le sur la collection",
+            "title": "Apportez-le sur la Collection",
             "sortBy": "original",
             "tmdbId": 430186,
             "filters": {},
@@ -35831,7 +35831,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-RF277B4E",
             "genre": "Apportez-le sur la collection",
-            "name": "Apportez-le sur la collection"
+            "name": "Apportez-le sur la Collection"
           }
         ],
         "hideTitle": true,
@@ -35994,7 +35994,7 @@ window.NUVIO_DATABASE = [
         "catalogSources": []
       },
       {
-        "title": "Cloverfield collection",
+        "title": "Cloverfield Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
@@ -36003,7 +36003,7 @@ window.NUVIO_DATABASE = [
         "heroBackdropUrl": "",
         "sources": [
           {
-            "title": "Cloverfield collection",
+            "title": "Cloverfield Collection",
             "sortBy": "original",
             "tmdbId": 1697536,
             "filters": {},
@@ -36012,7 +36012,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-JV58N829",
             "genre": "Cloverfield collection",
-            "name": "Cloverfield collection"
+            "name": "Cloverfield Collection"
           }
         ],
         "id": "folder-O0PUA7V6",
@@ -36200,7 +36200,7 @@ window.NUVIO_DATABASE = [
         "title": "Diary of a Wimpy Kid",
         "sources": [
           {
-            "title": "Journal d'une collection Wimpy Kid",
+            "title": "Journal d'une Collection Wimpy Kid",
             "sortBy": "original",
             "tmdbId": 86110,
             "filters": {},
@@ -36209,7 +36209,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-VX36STHJ",
             "genre": "Journal d'une collection Wimpy Kid",
-            "name": "Journal d'une collection Wimpy Kid"
+            "name": "Journal d'une Collection Wimpy Kid"
           }
         ],
         "hideTitle": true,
@@ -37131,7 +37131,7 @@ window.NUVIO_DATABASE = [
         "title": "How to Train Your Dragon",
         "sources": [
           {
-            "title": "Comment dresser votre collection de dragons",
+            "title": "Comment dresser votre Collection de dragons",
             "sortBy": "original",
             "tmdbId": 89137,
             "filters": {},
@@ -37140,7 +37140,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-9N5LRDTP",
             "genre": "Comment dresser votre collection de dragons",
-            "name": "Comment dresser votre collection de dragons"
+            "name": "Comment dresser votre Collection de dragons"
           }
         ],
         "hideTitle": true,
@@ -37885,7 +37885,7 @@ window.NUVIO_DATABASE = [
         "title": "Meet the Parents",
         "sources": [
           {
-            "title": "Rencontrez la collection Parents",
+            "title": "Rencontrez la Collection Parents",
             "sortBy": "original",
             "tmdbId": 51509,
             "filters": {},
@@ -37894,7 +37894,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-HL5YYZCZ",
             "genre": "Rencontrez la collection Parents",
-            "name": "Rencontrez la collection Parents"
+            "name": "Rencontrez la Collection Parents"
           }
         ],
         "hideTitle": true,
@@ -38915,7 +38915,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-G5WF3ZRF",
-        "title": "Scary Movie",
+        "title": "Scary Film",
         "sources": [
           {
             "title": "Collection de films d'horreur",
@@ -39247,7 +39247,7 @@ window.NUVIO_DATABASE = [
         "title": "Spider-Man: Spider-Verse",
         "sources": [
           {
-            "title": "Spider-Man : Collection Spider-Verse",
+            "title": "Spider-Man : Collection Spider-Verse",
             "sortBy": "original",
             "tmdbId": 573436,
             "filters": {},
@@ -39256,7 +39256,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-DWXZF051",
             "genre": "Spider-Man : Collection Spider-Verse",
-            "name": "Spider-Man : Collection Spider-Verse"
+            "name": "Spider-Man : Collection Spider-Verse"
           }
         ],
         "hideTitle": true,
@@ -39298,7 +39298,7 @@ window.NUVIO_DATABASE = [
         "title": "Star Trek: Alternate Reality",
         "sources": [
           {
-            "title": "Star Trek : Collection de réalité alternative",
+            "title": "Star Trek : Collection de réalité alternative",
             "sortBy": "original",
             "tmdbId": 115575,
             "filters": {},
@@ -39307,7 +39307,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-CJ1765QN",
             "genre": "Star Trek : Collection de réalité alternative",
-            "name": "Star Trek : Collection de réalité alternative"
+            "name": "Star Trek : Collection de réalité alternative"
           }
         ],
         "hideTitle": true,
@@ -39320,10 +39320,10 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-B4D2E50F",
-        "title": "Star Trek: The Next Generation Movies",
+        "title": "Star Trek: The Next Generation Films",
         "sources": [
           {
-            "title": "Star Trek: The Next Generation Movies",
+            "title": "Star Trek: The Next Generation Films",
             "sortBy": "original",
             "tmdbId": 115570,
             "filters": {},
@@ -39332,7 +39332,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-3FEE74DA",
             "genre": "Star Trek: The Next Generation Movies",
-            "name": "Star Trek: The Next Generation Movies"
+            "name": "Star Trek: The Next Generation Films"
           }
         ],
         "hideTitle": true,
@@ -39346,10 +39346,10 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-C35AE282",
-        "title": "Star Trek: The Original Series Movies",
+        "title": "Star Trek: The Original Séries Films",
         "sources": [
           {
-            "title": "Star Trek: The Original Series Movies",
+            "title": "Star Trek: The Original Séries Films",
             "sortBy": "original",
             "tmdbId": 151,
             "filters": {},
@@ -39358,7 +39358,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-20A4DE29",
             "genre": "Star Trek: The Original Series Movies",
-            "name": "Star Trek: The Original Series Movies"
+            "name": "Star Trek: The Original Séries Films"
           }
         ],
         "hideTitle": true,
@@ -39679,7 +39679,7 @@ window.NUVIO_DATABASE = [
         "title": "The Boondock Saints",
         "sources": [
           {
-            "title": "La collection des Saints de Boondock",
+            "title": "La Collection des Saints de Boondock",
             "sortBy": "original",
             "tmdbId": 87186,
             "filters": {},
@@ -39688,7 +39688,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-3KJQQU9Q",
             "genre": "La collection des Saints de Boondock",
-            "name": "La collection des Saints de Boondock"
+            "name": "La Collection des Saints de Boondock"
           }
         ],
         "hideTitle": true,
@@ -39704,7 +39704,7 @@ window.NUVIO_DATABASE = [
         "title": "The Boss Baby",
         "sources": [
           {
-            "title": "La collection Boss Bébé",
+            "title": "La Collection Boss Bébé",
             "sortBy": "original",
             "tmdbId": 519457,
             "filters": {},
@@ -39713,7 +39713,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-1Q7083EG",
             "genre": "La collection Boss Bébé",
-            "name": "La collection Boss Bébé"
+            "name": "La Collection Boss Bébé"
           }
         ],
         "hideTitle": true,
@@ -39729,7 +39729,7 @@ window.NUVIO_DATABASE = [
         "title": "The Bourne",
         "sources": [
           {
-            "title": "La collection Bourne",
+            "title": "La Collection Bourne",
             "sortBy": "original",
             "tmdbId": 31562,
             "filters": {},
@@ -39738,7 +39738,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-F5N54H1V",
             "genre": "La collection Bourne",
-            "name": "La collection Bourne"
+            "name": "La Collection Bourne"
           }
         ],
         "hideTitle": true,
@@ -39805,7 +39805,7 @@ window.NUVIO_DATABASE = [
         "title": "The Conjuring",
         "sources": [
           {
-            "title": "La collection de conjuration",
+            "title": "La Collection de conjuration",
             "sortBy": "original",
             "tmdbId": 313086,
             "filters": {},
@@ -39814,7 +39814,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-YI95FM7I",
             "genre": "La collection de conjuration",
-            "name": "La collection de conjuration"
+            "name": "La Collection de conjuration"
           }
         ],
         "hideTitle": true,
@@ -39856,7 +39856,7 @@ window.NUVIO_DATABASE = [
         "title": "The Dark Knight",
         "sources": [
           {
-            "title": "La collection du chevalier noir",
+            "title": "La Collection du chevalier noir",
             "sortBy": "original",
             "tmdbId": 263,
             "filters": {},
@@ -39865,7 +39865,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-FXCS38VA",
             "genre": "La collection du chevalier noir",
-            "name": "La collection du chevalier noir"
+            "name": "La Collection du chevalier noir"
           }
         ],
         "hideTitle": true,
@@ -39881,7 +39881,7 @@ window.NUVIO_DATABASE = [
         "title": "The Dirty Dozen",
         "sources": [
           {
-            "title": "La collection des douzaines sales",
+            "title": "La Collection des douzaines sales",
             "sortBy": "original",
             "tmdbId": 124492,
             "filters": {},
@@ -39890,7 +39890,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-9SATU30N",
             "genre": "La collection des douzaines sales",
-            "name": "La collection des douzaines sales"
+            "name": "La Collection des douzaines sales"
           }
         ],
         "hideTitle": true,
@@ -39906,7 +39906,7 @@ window.NUVIO_DATABASE = [
         "title": "The Equalizer",
         "sources": [
           {
-            "title": "La collection égaliseur",
+            "title": "La Collection égaliseur",
             "sortBy": "original",
             "tmdbId": 523855,
             "filters": {},
@@ -39915,7 +39915,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-JB4D8TC4",
             "genre": "La collection égaliseur",
-            "name": "La collection égaliseur"
+            "name": "La Collection égaliseur"
           }
         ],
         "hideTitle": true,
@@ -39931,7 +39931,7 @@ window.NUVIO_DATABASE = [
         "title": "The Exorcist",
         "sources": [
           {
-            "title": "La collection Exorciste",
+            "title": "La Collection Exorciste",
             "sortBy": "original",
             "tmdbId": 12263,
             "filters": {},
@@ -39940,7 +39940,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-RU9AVOZV",
             "genre": "La collection Exorciste",
-            "name": "La collection Exorciste"
+            "name": "La Collection Exorciste"
           }
         ],
         "hideTitle": true,
@@ -39956,7 +39956,7 @@ window.NUVIO_DATABASE = [
         "title": "The Expendables",
         "sources": [
           {
-            "title": "La collection Expendables",
+            "title": "La Collection Expendables",
             "sortBy": "original",
             "tmdbId": 126125,
             "filters": {},
@@ -39965,7 +39965,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-DO76I2YN",
             "genre": "La collection Expendables",
-            "name": "La collection Expendables"
+            "name": "La Collection Expendables"
           }
         ],
         "hideTitle": true,
@@ -39981,7 +39981,7 @@ window.NUVIO_DATABASE = [
         "title": "The Fast and the Furious",
         "sources": [
           {
-            "title": "La collection Fast and Furious",
+            "title": "La Collection Fast and Furious",
             "sortBy": "original",
             "tmdbId": 9485,
             "filters": {},
@@ -39990,7 +39990,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-1KK9SF3S",
             "genre": "La collection Fast and Furious",
-            "name": "La collection Fast and Furious"
+            "name": "La Collection Fast and Furious"
           }
         ],
         "hideTitle": true,
@@ -40032,7 +40032,7 @@ window.NUVIO_DATABASE = [
         "title": "The Godfather",
         "sources": [
           {
-            "title": "La collection Le Parrain",
+            "title": "La Collection Le Parrain",
             "sortBy": "original",
             "tmdbId": 230,
             "filters": {},
@@ -40041,7 +40041,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-TSPT9OGF",
             "genre": "La collection Le Parrain",
-            "name": "La collection Le Parrain"
+            "name": "La Collection Le Parrain"
           }
         ],
         "hideTitle": true,
@@ -40057,7 +40057,7 @@ window.NUVIO_DATABASE = [
         "title": "The Grudge",
         "sources": [
           {
-            "title": "La collection de rancunes",
+            "title": "La Collection de rancunes",
             "sortBy": "original",
             "tmdbId": 1974,
             "filters": {},
@@ -40066,7 +40066,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-0Z5IDI5I",
             "genre": "La collection de rancunes",
-            "name": "La collection de rancunes"
+            "name": "La Collection de rancunes"
           }
         ],
         "hideTitle": true,
@@ -40082,7 +40082,7 @@ window.NUVIO_DATABASE = [
         "title": "The Hangover",
         "sources": [
           {
-            "title": "La collection gueule de bois",
+            "title": "La Collection gueule de bois",
             "sortBy": "original",
             "tmdbId": 86119,
             "filters": {},
@@ -40091,7 +40091,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-W8YUH8E1",
             "genre": "La collection gueule de bois",
-            "name": "La collection gueule de bois"
+            "name": "La Collection gueule de bois"
           }
         ],
         "hideTitle": true,
@@ -40132,7 +40132,7 @@ window.NUVIO_DATABASE = [
         "title": "The Hobbit",
         "sources": [
           {
-            "title": "La collection Le Hobbit",
+            "title": "La Collection Le Hobbit",
             "sortBy": "original",
             "tmdbId": 121938,
             "filters": {},
@@ -40141,7 +40141,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-T4MI13S4",
             "genre": "La collection Le Hobbit",
-            "name": "La collection Le Hobbit"
+            "name": "La Collection Le Hobbit"
           }
         ],
         "hideTitle": true,
@@ -40157,7 +40157,7 @@ window.NUVIO_DATABASE = [
         "title": "The Hunger Games",
         "sources": [
           {
-            "title": "La collection des jeux de la faim",
+            "title": "La Collection des jeux de la faim",
             "sortBy": "original",
             "tmdbId": 131635,
             "filters": {},
@@ -40166,7 +40166,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-FV0AQFWQ",
             "genre": "La collection des jeux de la faim",
-            "name": "La collection des jeux de la faim"
+            "name": "La Collection des jeux de la faim"
           }
         ],
         "hideTitle": true,
@@ -40182,7 +40182,7 @@ window.NUVIO_DATABASE = [
         "title": "The Incredibles",
         "sources": [
           {
-            "title": "La collection Les Indestructibles",
+            "title": "La Collection Les Indestructibles",
             "sortBy": "original",
             "tmdbId": 468222,
             "filters": {},
@@ -40191,7 +40191,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-XIE687AI",
             "genre": "La collection Les Indestructibles",
-            "name": "La collection Les Indestructibles"
+            "name": "La Collection Les Indestructibles"
           }
         ],
         "hideTitle": true,
@@ -40233,7 +40233,7 @@ window.NUVIO_DATABASE = [
         "title": "The Karate Kid",
         "sources": [
           {
-            "title": "La collection Karate Kid",
+            "title": "La Collection Karate Kid",
             "sortBy": "original",
             "tmdbId": 8580,
             "filters": {},
@@ -40242,7 +40242,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-LSZ538IP",
             "genre": "La collection Karate Kid",
-            "name": "La collection Karate Kid"
+            "name": "La Collection Karate Kid"
           }
         ],
         "hideTitle": true,
@@ -40281,10 +40281,10 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-KHE9H664",
-        "title": "The Lego Movie",
+        "title": "The Lego Film",
         "sources": [
           {
-            "title": "La collection de films Lego",
+            "title": "La Collection de films Lego",
             "sortBy": "original",
             "tmdbId": 325470,
             "filters": {},
@@ -40293,7 +40293,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-JCVSK44Q",
             "genre": "La collection de films Lego",
-            "name": "La collection de films Lego"
+            "name": "La Collection de films Lego"
           }
         ],
         "hideTitle": true,
@@ -40386,7 +40386,7 @@ window.NUVIO_DATABASE = [
         "title": "The Matrix",
         "sources": [
           {
-            "title": "La collection Matrice",
+            "title": "La Collection Matrice",
             "sortBy": "original",
             "tmdbId": 2344,
             "filters": {},
@@ -40395,7 +40395,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-0ZY9F082",
             "genre": "La collection Matrice",
-            "name": "La collection Matrice"
+            "name": "La Collection Matrice"
           }
         ],
         "hideTitle": true,
@@ -40411,7 +40411,7 @@ window.NUVIO_DATABASE = [
         "title": "The Maze Runner",
         "sources": [
           {
-            "title": "La collection Labyrinthe",
+            "title": "La Collection Labyrinthe",
             "sortBy": "original",
             "tmdbId": 295130,
             "filters": {},
@@ -40420,7 +40420,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-CSWRB8BM",
             "genre": "La collection Labyrinthe",
-            "name": "La collection Labyrinthe"
+            "name": "La Collection Labyrinthe"
           }
         ],
         "hideTitle": true,
@@ -40462,7 +40462,7 @@ window.NUVIO_DATABASE = [
         "title": "The Mighty Ducks",
         "sources": [
           {
-            "title": "La collection des puissants canards",
+            "title": "La Collection des puissants canards",
             "sortBy": "original",
             "tmdbId": 10709,
             "filters": {},
@@ -40471,7 +40471,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-5LBEQHRH",
             "genre": "La collection des puissants canards",
-            "name": "La collection des puissants canards"
+            "name": "La Collection des puissants canards"
           }
         ],
         "hideTitle": true,
@@ -40487,7 +40487,7 @@ window.NUVIO_DATABASE = [
         "title": "The Mummy",
         "sources": [
           {
-            "title": "La collection Momie",
+            "title": "La Collection Momie",
             "sortBy": "original",
             "tmdbId": 1733,
             "filters": {},
@@ -40496,7 +40496,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-JQO0MUCW",
             "genre": "La collection Momie",
-            "name": "La collection Momie"
+            "name": "La Collection Momie"
           }
         ],
         "hideTitle": true,
@@ -40563,7 +40563,7 @@ window.NUVIO_DATABASE = [
         "title": "The Omen",
         "sources": [
           {
-            "title": "La collection Présage",
+            "title": "La Collection Présage",
             "sortBy": "original",
             "tmdbId": 10919,
             "filters": {},
@@ -40572,7 +40572,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-4LKME8SL",
             "genre": "La collection Présage",
-            "name": "La collection Présage"
+            "name": "La Collection Présage"
           }
         ],
         "hideTitle": true,
@@ -40640,7 +40640,7 @@ window.NUVIO_DATABASE = [
         "title": "The Purge",
         "sources": [
           {
-            "title": "La collection Purge",
+            "title": "La Collection Purge",
             "sortBy": "original",
             "tmdbId": 256322,
             "filters": {},
@@ -40649,7 +40649,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-J4DH0O6K",
             "genre": "La collection Purge",
-            "name": "La collection Purge"
+            "name": "La Collection Purge"
           }
         ],
         "hideTitle": true,
@@ -40690,7 +40690,7 @@ window.NUVIO_DATABASE = [
         "title": "The Ring",
         "sources": [
           {
-            "title": "La collection de bagues",
+            "title": "La Collection de bagues",
             "sortBy": "original",
             "tmdbId": 14563,
             "filters": {},
@@ -40699,7 +40699,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-DY11KL4Q",
             "genre": "La collection de bagues",
-            "name": "La collection de bagues"
+            "name": "La Collection de bagues"
           }
         ],
         "hideTitle": true,
@@ -40740,7 +40740,7 @@ window.NUVIO_DATABASE = [
         "title": "The Terminator",
         "sources": [
           {
-            "title": "La collection Terminateur",
+            "title": "La Collection Terminateur",
             "sortBy": "original",
             "tmdbId": 528,
             "filters": {},
@@ -40749,7 +40749,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-62FFRION",
             "genre": "La collection Terminateur",
-            "name": "La collection Terminateur"
+            "name": "La Collection Terminateur"
           }
         ],
         "hideTitle": true,
@@ -40765,7 +40765,7 @@ window.NUVIO_DATABASE = [
         "title": "The Transporter",
         "sources": [
           {
-            "title": "La collection Transporteur",
+            "title": "La Collection Transporteur",
             "sortBy": "original",
             "tmdbId": 9518,
             "filters": {},
@@ -40774,7 +40774,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-66OCUGMC",
             "genre": "La collection Transporteur",
-            "name": "La collection Transporteur"
+            "name": "La Collection Transporteur"
           }
         ],
         "hideTitle": true,
@@ -40790,7 +40790,7 @@ window.NUVIO_DATABASE = [
         "title": "The Twilight",
         "sources": [
           {
-            "title": "La collection Crépuscule",
+            "title": "La Collection Crépuscule",
             "sortBy": "original",
             "tmdbId": 33514,
             "filters": {},
@@ -40799,7 +40799,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "COLLECTION",
             "id": "src-YM7CW04D",
             "genre": "La collection Crépuscule",
-            "name": "La collection Crépuscule"
+            "name": "La Collection Crépuscule"
           }
         ],
         "hideTitle": true,
@@ -52319,7 +52319,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-DV01DOCB",
-            "title": "Alejandro González Iñárritu (Best Of)",
+            "title": "Alejandro González Iñárritu (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52330,7 +52330,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 100
             },
             "genre": "Alejandro González Iñárritu (Best Of)",
-            "name": "Alejandro González Iñárritu (Best Of)"
+            "name": "Alejandro González Iñárritu (Le meilleur de)"
           },
           {
             "id": "src-60ORG1C2",
@@ -52491,7 +52491,7 @@ window.NUVIO_DATABASE = [
         "title": "Antoine Fuqua",
         "sources": [
           {
-            "title": "Antoine Fuqua (Best Of)",
+            "title": "Antoine Fuqua (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52503,7 +52503,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-EEVDW7E8",
             "genre": "Antoine Fuqua (Best Of)",
-            "name": "Antoine Fuqua (Best Of)"
+            "name": "Antoine Fuqua (Le meilleur de)"
           },
           {
             "title": "Antoine Fuqua (Recent)",
@@ -52580,7 +52580,7 @@ window.NUVIO_DATABASE = [
         "title": "Billy Wilder",
         "sources": [
           {
-            "title": "Billy Wilder (Best Of)",
+            "title": "Billy Wilder (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52592,7 +52592,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-ED06JADZ",
             "genre": "Billy Wilder (Best Of)",
-            "name": "Billy Wilder (Best Of)"
+            "name": "Billy Wilder (Le meilleur de)"
           },
           {
             "title": "Billy Wilder (Recent)",
@@ -52713,7 +52713,7 @@ window.NUVIO_DATABASE = [
         "title": "Chad Stahelski",
         "sources": [
           {
-            "title": "Chad Stahelski (Best Of)",
+            "title": "Chad Stahelski (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52725,7 +52725,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-GFFHKQIG",
             "genre": "Chad Stahelski (Best Of)",
-            "name": "Chad Stahelski (Best Of)"
+            "name": "Chad Stahelski (Le meilleur de)"
           },
           {
             "title": "Chad Stahelski (Recent)",
@@ -52802,7 +52802,7 @@ window.NUVIO_DATABASE = [
         "title": "Clint Eastwood",
         "sources": [
           {
-            "title": "Clint Eastwood (Best Of)",
+            "title": "Clint Eastwood (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52814,7 +52814,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-CO7F0WTW",
             "genre": "Clint Eastwood (Best Of)",
-            "name": "Clint Eastwood (Best Of)"
+            "name": "Clint Eastwood (Le meilleur de)"
           },
           {
             "title": "Clint Eastwood (Recent)",
@@ -52855,7 +52855,7 @@ window.NUVIO_DATABASE = [
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/damien-chazelle/damien-chazelle-backdrop.jpg",
         "sources": [
           {
-            "title": "Damien Chazelle (Best Of)",
+            "title": "Damien Chazelle (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -52867,7 +52867,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-RB22D6WR",
             "genre": "Damien Chazelle (Best Of)",
-            "name": "Damien Chazelle (Best Of)"
+            "name": "Damien Chazelle (Le meilleur de)"
           },
           {
             "title": "Damien Chazelle (récent)",
@@ -53022,7 +53022,7 @@ window.NUVIO_DATABASE = [
         "title": "David Cronenberg",
         "sources": [
           {
-            "title": "David Cronenberg (Best Of)",
+            "title": "David Cronenberg (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53034,7 +53034,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-MDHZKIB8",
             "genre": "David Cronenberg (Best Of)",
-            "name": "David Cronenberg (Best Of)"
+            "name": "David Cronenberg (Le meilleur de)"
           },
           {
             "title": "David Cronenberg (Recent)",
@@ -53375,7 +53375,7 @@ window.NUVIO_DATABASE = [
         "title": "George Miller",
         "sources": [
           {
-            "title": "George Miller (Best Of)",
+            "title": "George Miller (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53387,7 +53387,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-NQ87JCI1",
             "genre": "George Miller (Best Of)",
-            "name": "George Miller (Best Of)"
+            "name": "George Miller (Le meilleur de)"
           },
           {
             "title": "George Miller (Recent)",
@@ -53420,7 +53420,7 @@ window.NUVIO_DATABASE = [
         "title": "Gore Verbinski",
         "sources": [
           {
-            "title": "Gore Verbinski (Best Of)",
+            "title": "Gore Verbinski (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53432,7 +53432,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-2KTYVD60",
             "genre": "Gore Verbinski (Best Of)",
-            "name": "Gore Verbinski (Best Of)"
+            "name": "Gore Verbinski (Le meilleur de)"
           },
           {
             "title": "Gore Verbinski (Recent)",
@@ -53685,7 +53685,7 @@ window.NUVIO_DATABASE = [
         "title": "James Gunn",
         "sources": [
           {
-            "title": "James Gunn (Best Of)",
+            "title": "James Gunn (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53697,7 +53697,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-JDT2MMEF",
             "genre": "James Gunn (Best Of)",
-            "name": "James Gunn (Best Of)"
+            "name": "James Gunn (Le meilleur de)"
           },
           {
             "title": "James Gunn (Recent)",
@@ -53862,7 +53862,7 @@ window.NUVIO_DATABASE = [
         "title": "John Hughes",
         "sources": [
           {
-            "title": "John Hughes (Best Of)",
+            "title": "John Hughes (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53874,7 +53874,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-RGM0LNAX",
             "genre": "John Hughes (Best Of)",
-            "name": "John Hughes (Best Of)"
+            "name": "John Hughes (Le meilleur de)"
           },
           {
             "title": "John Hughes (Recent)",
@@ -53907,7 +53907,7 @@ window.NUVIO_DATABASE = [
         "title": "Jonathan Demme",
         "sources": [
           {
-            "title": "Jonathan Demme (Best Of)",
+            "title": "Jonathan Demme (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -53919,7 +53919,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-5RC4S342",
             "genre": "Jonathan Demme (Best Of)",
-            "name": "Jonathan Demme (Best Of)"
+            "name": "Jonathan Demme (Le meilleur de)"
           },
           {
             "title": "Jonathan Demme (Recent)",
@@ -54040,7 +54040,7 @@ window.NUVIO_DATABASE = [
         "title": "Luc Besson",
         "sources": [
           {
-            "title": "Luc Besson (Best Of)",
+            "title": "Luc Besson (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -54052,7 +54052,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-M4ZS3GMW",
             "genre": "Luc Besson (Best Of)",
-            "name": "Luc Besson (Best Of)"
+            "name": "Luc Besson (Le meilleur de)"
           },
           {
             "title": "Luc Besson (Recent)",
@@ -54085,7 +54085,7 @@ window.NUVIO_DATABASE = [
         "title": "Martin McDonagh",
         "sources": [
           {
-            "title": "Martin McDonagh (Best Of)",
+            "title": "Martin McDonagh (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -54097,7 +54097,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-AB6YC9WT",
             "genre": "Martin McDonagh (Best Of)",
-            "name": "Martin McDonagh (Best Of)"
+            "name": "Martin McDonagh (Le meilleur de)"
           },
           {
             "title": "Martin McDonagh (Recent)",
@@ -54436,7 +54436,7 @@ window.NUVIO_DATABASE = [
         "title": "Paul Verhoeven",
         "sources": [
           {
-            "title": "Paul Verhoeven (Best Of)",
+            "title": "Paul Verhoeven (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -54448,7 +54448,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-LQEZS09D",
             "genre": "Paul Verhoeven (Best Of)",
-            "name": "Paul Verhoeven (Best Of)"
+            "name": "Paul Verhoeven (Le meilleur de)"
           },
           {
             "title": "Paul Verhoeven (Recent)",
@@ -54874,7 +54874,7 @@ window.NUVIO_DATABASE = [
         "title": "Ron Howard",
         "sources": [
           {
-            "title": "Ron Howard (Best Of)",
+            "title": "Ron Howard (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -54886,7 +54886,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-BNAJ5OJH",
             "genre": "Ron Howard (Best Of)",
-            "name": "Ron Howard (Best Of)"
+            "name": "Ron Howard (Le meilleur de)"
           },
           {
             "title": "Ron Howard (Recent)",
@@ -55094,7 +55094,7 @@ window.NUVIO_DATABASE = [
         "title": "Satoshi Kon",
         "sources": [
           {
-            "title": "Satoshi Kon (Best Of)",
+            "title": "Satoshi Kon (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55106,7 +55106,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-WV6ZZZTQ",
             "genre": "Satoshi Kon (Best Of)",
-            "name": "Satoshi Kon (Best Of)"
+            "name": "Satoshi Kon (Le meilleur de)"
           },
           {
             "title": "Satoshi Kon (Recent)",
@@ -55182,7 +55182,7 @@ window.NUVIO_DATABASE = [
         "title": "Sidney Lumet",
         "sources": [
           {
-            "title": "Sidney Lumet (Best Of)",
+            "title": "Sidney Lumet (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55194,7 +55194,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-I85FIIQA",
             "genre": "Sidney Lumet (Best Of)",
-            "name": "Sidney Lumet (Best Of)"
+            "name": "Sidney Lumet (Le meilleur de)"
           },
           {
             "title": "Sidney Lumet (Recent)",
@@ -55227,7 +55227,7 @@ window.NUVIO_DATABASE = [
         "title": "Spike Jonze",
         "sources": [
           {
-            "title": "Spike Jonze (Best Of)",
+            "title": "Spike Jonze (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55239,7 +55239,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-DWYLFSC5",
             "genre": "Spike Jonze (Best Of)",
-            "name": "Spike Jonze (Best Of)"
+            "name": "Spike Jonze (Le meilleur de)"
           },
           {
             "title": "Spike Jonze (Recent)",
@@ -55447,7 +55447,7 @@ window.NUVIO_DATABASE = [
         "title": "Taika Waititi",
         "sources": [
           {
-            "title": "Taika Waititi (Best Of)",
+            "title": "Taika Waititi (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55459,7 +55459,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-1AEMKWBW",
             "genre": "Taika Waititi (Best Of)",
-            "name": "Taika Waititi (Best Of)"
+            "name": "Taika Waititi (Le meilleur de)"
           },
           {
             "title": "Taika Waititi (Recent)",
@@ -55492,7 +55492,7 @@ window.NUVIO_DATABASE = [
         "title": "Terry Gilliam",
         "sources": [
           {
-            "title": "Terry Gilliam (Best Of)",
+            "title": "Terry Gilliam (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55504,7 +55504,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-07JNCH9F",
             "genre": "Terry Gilliam (Best Of)",
-            "name": "Terry Gilliam (Best Of)"
+            "name": "Terry Gilliam (Le meilleur de)"
           },
           {
             "title": "Terry Gilliam (Recent)",
@@ -55537,7 +55537,7 @@ window.NUVIO_DATABASE = [
         "title": "The Wachowskis",
         "sources": [
           {
-            "title": "The Wachowskis (Best Of)",
+            "title": "The Wachowskis (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55549,7 +55549,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-2SU0GVHK",
             "genre": "The Wachowskis (Best Of)",
-            "name": "The Wachowskis (Best Of)"
+            "name": "The Wachowskis (Le meilleur de)"
           },
           {
             "title": "The Wachowskis (Recent)",
@@ -55669,7 +55669,7 @@ window.NUVIO_DATABASE = [
         "title": "Tony Scott",
         "sources": [
           {
-            "title": "Tony Scott (Best Of)",
+            "title": "Tony Scott (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55681,7 +55681,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-O2KL72Y9",
             "genre": "Tony Scott (Best Of)",
-            "name": "Tony Scott (Best Of)"
+            "name": "Tony Scott (Le meilleur de)"
           },
           {
             "title": "Tony Scott (Recent)",
@@ -55846,7 +55846,7 @@ window.NUVIO_DATABASE = [
         "title": "Wong Kar-wai",
         "sources": [
           {
-            "title": "Wong Kar-wai (Best Of)",
+            "title": "Wong Kar-wai (Le meilleur de)",
             "sortBy": "original",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -55858,7 +55858,7 @@ window.NUVIO_DATABASE = [
             },
             "id": "src-HBQ3FL9P",
             "genre": "Wong Kar-wai (Best Of)",
-            "name": "Wong Kar-wai (Best Of)"
+            "name": "Wong Kar-wai (Le meilleur de)"
           },
           {
             "title": "Wong Kar-wai (Recent)",
@@ -57004,7 +57004,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-5VIHLY7Y",
-        "title": "New Line Cinema",
+        "title": "New Line Cinéma",
         "sources": [
           {
             "title": "Films récents",
@@ -57826,7 +57826,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-7HH2LVN2",
-            "title": "Émissions TV des années 2020 les mieux notées",
+            "title": "Émissions TV des années 2020 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -57839,7 +57839,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 200
             },
             "genre": "Émissions TV des années 2020 les mieux notées",
-            "name": "Émissions TV des années 2020 les mieux notées"
+            "name": "Émissions TV des années 2020 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 2020",
@@ -58064,7 +58064,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-I1AJX790",
-            "title": "Émissions TV populaires des années 2010",
+            "title": "Émissions TV populaires des années 2010",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -58077,7 +58077,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 40
             },
             "genre": "Émissions TV populaires des années 2010",
-            "name": "Émissions TV populaires des années 2010"
+            "name": "Émissions TV populaires des années 2010"
           },
           {
             "id": "src-Q5K9YKAK",
@@ -58098,7 +58098,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-0C5EI4WV",
-            "title": "Émissions TV des années 2010 les mieux notées",
+            "title": "Émissions TV des années 2010 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -58111,7 +58111,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500
             },
             "genre": "Émissions TV des années 2010 les mieux notées",
-            "name": "Émissions TV des années 2010 les mieux notées"
+            "name": "Émissions TV des années 2010 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 2010",
@@ -58642,7 +58642,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-F9BQGJBN",
-            "title": "Émissions TV des années 90 les mieux notées",
+            "title": "Émissions TV des années 90 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -58655,7 +58655,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 300
             },
             "genre": "Émissions TV des années 90 les mieux notées",
-            "name": "Émissions TV des années 90 les mieux notées"
+            "name": "Émissions TV des années 90 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 1990",
@@ -58914,7 +58914,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-80YEW7CF",
-            "title": "Émissions TV des années 80 les mieux notées",
+            "title": "Émissions TV des années 80 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -58927,7 +58927,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 200
             },
             "genre": "Émissions TV des années 80 les mieux notées",
-            "name": "Émissions TV des années 80 les mieux notées"
+            "name": "Émissions TV des années 80 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 1980",
@@ -59186,7 +59186,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-VLWZINSB",
-            "title": "Séries TV des années 1970 les mieux notées",
+            "title": "Séries TV des années 1970 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59199,7 +59199,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 100
             },
             "genre": "Séries TV des années 1970 les mieux notées",
-            "name": "Séries TV des années 1970 les mieux notées"
+            "name": "Séries TV des années 1970 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 1970",
@@ -59458,7 +59458,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-84SUPGW6",
-            "title": "Séries TV des années 60 les mieux notées",
+            "title": "Séries TV des années 60 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59471,7 +59471,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 100
             },
             "genre": "Séries TV des années 60 les mieux notées",
-            "name": "Séries TV des années 60 les mieux notées"
+            "name": "Séries TV des années 60 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 1960",
@@ -59696,7 +59696,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-U9PJ85UH",
-            "title": "Séries TV populaires des années 1950",
+            "title": "Séries TV populaires des années 1950",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59709,7 +59709,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 40
             },
             "genre": "Séries TV populaires des années 1950",
-            "name": "Séries TV populaires des années 1950"
+            "name": "Séries TV populaires des années 1950"
           },
           {
             "id": "src-A1HUIF3X",
@@ -59730,7 +59730,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-4SJOWHVU",
-            "title": "Séries TV des années 1950 les mieux notées",
+            "title": "Séries TV des années 1950 les mieux notées",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59743,7 +59743,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 100
             },
             "genre": "Séries TV des années 1950 les mieux notées",
-            "name": "Séries TV des années 1950 les mieux notées"
+            "name": "Séries TV des années 1950 les mieux notées"
           },
           {
             "title": "Le plus populaire de l'année 1950",
@@ -60008,7 +60008,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-28C4UZ10",
-            "title": "Films d'animation tendance",
+            "title": "Films d'Animation tendance",
             "mediaType": "MOVIE",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -60024,11 +60024,11 @@ window.NUVIO_DATABASE = [
               "with_original_language": "ja"
             },
             "genre": "Films d'animation tendance",
-            "name": "Films d'animation tendance"
+            "name": "Films d'Animation tendance"
           },
           {
             "id": "src-BK4KJJNV",
-            "title": "Films d'animation les mieux notés",
+            "title": "Films d'Animation les mieux notés",
             "mediaType": "MOVIE",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -60044,7 +60044,7 @@ window.NUVIO_DATABASE = [
               "with_original_language": "ja"
             },
             "genre": "Films d'animation les mieux notés",
-            "name": "Films d'animation les mieux notés"
+            "name": "Films d'Animation les mieux notés"
           },
           {
             "id": "src-ABWAIOIK",
@@ -60264,7 +60264,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-7RBV7DO8",
-            "title": "Joyaux visuels de l'animation de Kyoto",
+            "title": "Joyaux visuels de l'Animation de Kyoto",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -60280,7 +60280,7 @@ window.NUVIO_DATABASE = [
               "with_companies": "5438"
             },
             "genre": "Joyaux visuels de l'animation de Kyoto",
-            "name": "Joyaux visuels de l'animation de Kyoto"
+            "name": "Joyaux visuels de l'Animation de Kyoto"
           },
           {
             "id": "src-EHU9XS8Y",
@@ -60835,7 +60835,7 @@ window.NUVIO_DATABASE = [
             "name": "Gagnants du meilleur scénario adapté 1928-2025"
           },
           {
-            "title": "Gagnants du meilleur long métrage d’animation 2001-2025",
+            "title": "Gagnants du meilleur long métrage d’Animation 2001-2025",
             "sortBy": "rank",
             "sortHow": "desc",
             "provider": "trakt",
@@ -60843,10 +60843,10 @@ window.NUVIO_DATABASE = [
             "traktListId": 34698738,
             "id": "src-DDM3GQL4",
             "genre": "Gagnants du meilleur long métrage d’animation 2001-2025",
-            "name": "Gagnants du meilleur long métrage d’animation 2001-2025"
+            "name": "Gagnants du meilleur long métrage d’Animation 2001-2025"
           },
           {
-            "title": "Gagnants du meilleur court métrage d’animation 1932-2025",
+            "title": "Gagnants du meilleur court métrage d’Animation 1932-2025",
             "sortBy": "rank",
             "sortHow": "desc",
             "provider": "trakt",
@@ -60854,7 +60854,7 @@ window.NUVIO_DATABASE = [
             "traktListId": 34698739,
             "id": "src-Q1YQ8PBK",
             "genre": "Gagnants du meilleur court métrage d’animation 1932-2025",
-            "name": "Gagnants du meilleur court métrage d’animation 1932-2025"
+            "name": "Gagnants du meilleur court métrage d’Animation 1932-2025"
           },
           {
             "title": "Gagnants de la meilleure photographie 1928-2025",
@@ -61211,7 +61211,7 @@ window.NUVIO_DATABASE = [
             "name": "Meilleure série télévisée - Gagnants musicaux ou comiques 1961-2025"
           },
           {
-            "title": "Gagnants du meilleur long métrage d’animation 2006-2025",
+            "title": "Gagnants du meilleur long métrage d’Animation 2006-2025",
             "sortBy": "rank",
             "sortHow": "desc",
             "provider": "trakt",
@@ -61219,7 +61219,7 @@ window.NUVIO_DATABASE = [
             "traktListId": 34816463,
             "id": "src-IKP40BH2",
             "genre": "Gagnants du meilleur long métrage d’animation 2006-2025",
-            "name": "Gagnants du meilleur long métrage d’animation 2006-2025"
+            "name": "Gagnants du meilleur long métrage d’Animation 2006-2025"
           },
           {
             "title": "Gagnants de la meilleure mini-série ou téléfilm 1971-2025",
@@ -69132,7 +69132,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-8FDLT9XU",
-            "title": "Films d'animation familiaux les mieux notés",
+            "title": "Films d'Animation familiaux les mieux notés",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -69144,7 +69144,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500
             },
             "genre": "Films d'animation familiaux les mieux notés",
-            "name": "Films d'animation familiaux les mieux notés"
+            "name": "Films d'Animation familiaux les mieux notés"
           },
           {
             "id": "src-CIJOYUIM",
@@ -69235,13 +69235,13 @@ window.NUVIO_DATABASE = [
         "id": "folder-9RSYJL73"
       },
       {
-        "title": "Pleins feux sur l'animation en studio",
+        "title": "Pleins feux sur l'Animation en studio",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-SR71238W",
-            "title": "Classiques de l'animation Pixar",
+            "title": "Classiques de l'Animation Pixar",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -69258,7 +69258,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-CT7DYZYR",
-            "title": "Joyaux d'animation de Walt Disney",
+            "title": "Joyaux d'Animation de Walt Disney",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -69309,7 +69309,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-NNP8DZS7",
-            "title": "Succès d'animation de Sony Pictures",
+            "title": "Succès d'Animation de Sony Pictures",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
