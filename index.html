@@ -876,11 +876,11 @@
       <p id="account-error" class="account-error" hidden></p>
 
       <div id="account-view-create">
-        <p class="account-lead">This turns on autosave for this browser. After you set a save password, your API keys and collection picks are stored here automatically when you change them. Completely optional.</p>
+        <p class="account-lead">Active la sauvegarde automatique sur ce navigateur. Après avoir défini un mot de passe, vos clés d'API et vos sélections y sont stockées automatiquement à chaque modification. Totalement facultatif.</p>
         <div class="account-callout">
-          <strong>Your keys stay on your side.</strong>
-          <p>We scramble them on this device with your save password before anything is stored. The password is never sent to our servers. This is separate from your Nuvio login.</p>
-          <button type="button" class="account-text-link" data-account-action="privacy">Read the short privacy note</button>
+          <strong>Vos clés restent exclusivement chez vous.</strong>
+          <p>Elles sont chiffrées localement avec votre mot de passe avant tout enregistrement. Le mot de passe n'est jamais transmis à nos serveurs. Ce système est indépendant de votre compte NuVio.</p>
+          <button type="button" class="account-text-link" data-account-action="privacy">Lire la note de confidentialité</button>
         </div>
         <label class="account-label">Save password
           <span class="account-tip" tabindex="0" data-tip="Only for autosave on this site. Not your Nuvio password. You will type it again after you fully close the browser.">?</span>
@@ -890,8 +890,8 @@
           <input type="password" id="account-pass-confirm" class="account-input" autocomplete="off" minlength="8">
         </label>
         <div class="account-actions">
-          <button type="button" id="account-btn-create" class="account-btn account-btn-primary">Set up autosave</button>
-          <button type="button" id="account-goto-unlock" class="account-btn account-btn-ghost">I already did this</button>
+          <button type="button" id="account-btn-create" class="account-btn account-btn-primary">Configurer la sauvegarde auto</button>
+          <button type="button" id="account-goto-unlock" class="account-btn account-btn-ghost">Déjà configuré</button>
         </div>
       </div>
 
@@ -943,16 +943,16 @@
       </div>
 
       <div id="account-view-privacy" hidden>
-        <p class="account-lead">Why this is safe enough to type keys into</p>
+        <p class="account-lead">Pourquoi ce système protège vos clés</p>
         <ul class="account-privacy-list">
-          <li>Your save password never leaves this device. We do not upload it.</li>
-          <li>API keys and optional Nuvio login details are scrambled on your device before they are stored in this browser.</li>
-          <li>Anyone who opens this site without your save password cannot read that data.</li>
-          <li>Autosave is optional. Skip it and the site works the same as before.</li>
-          <li>This is not the same thing as logging into a Kaptain cloud account. Use “Lock on this computer” if someone else might use this browser.</li>
+          <li>Votre mot de passe de sauvegarde ne quitte jamais cet appareil. Il n'est jamais téléversé.</li>
+          <li>Les clés d'API et identifiants facultatifs NuVio sont chiffrés sur votre appareil avant d'être enregistrés dans ce navigateur.</li>
+          <li>Toute personne ouvrant ce site sans votre mot de passe ne peut pas lire ces données.</li>
+          <li>La sauvegarde automatique est facultative. Vous pouvez l'ignorer, le site fonctionnera exactement de la même manière.</li>
+          <li>Ceci n'est pas un compte en ligne distant. Utilisez « Verrouiller sur cet ordinateur » si d'autres personnes ont accès à ce navigateur.</li>
         </ul>
         <div class="account-actions">
-          <button type="button" class="account-btn account-btn-primary account-goto-close">Got it</button>
+          <button type="button" class="account-btn account-btn-primary account-goto-close">Compris</button>
         </div>
       </div>
     </div>

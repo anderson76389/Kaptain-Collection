@@ -655,7 +655,7 @@ function showBetaPatchNotes(channel) {
         <a class="beta-notes-link" href="${escapeHtmlBeta(dmUrl)}" target="_blank" rel="noopener">Message u/KforKaptain</a>
         <a class="beta-notes-link" href="${escapeHtmlBeta(communityUrl)}" target="_blank" rel="noopener">r/Nuvio</a>
       </div>
-      <button type="button" class="bc-choice-cancel beta-notes-close" id="beta-notes-close">Got it</button>
+      <button type="button" class="bc-choice-cancel beta-notes-close" id="beta-notes-close">Compris</button>
     </div>`;
   document.body.appendChild(overlay);
   void overlay.offsetHeight;
