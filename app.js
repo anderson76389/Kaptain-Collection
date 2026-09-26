@@ -4602,7 +4602,7 @@ function renderSimpleSettings() {
     <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
     ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Avancé</strong> at the top.</p>'}
     ${adv(`
-    <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
+    <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(facultatif)</span>
       <span class="se-input-wrap">
         <input id="se-mdblist-key" class="se-input" value="${v(seSettings.mdblistKey)}" placeholder="MDBList key" autocomplete="off">
         <button type="button" class="se-key-test" id="se-mdblist-test">Tester</button>
@@ -4618,7 +4618,7 @@ function renderSimpleSettings() {
       </span>
     </label>
     <div class="se-key-status" id="se-torbox-status"></div>
-    <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
+    <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(facultatif)</span>
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="TMDB v4 key" autocomplete="off">
         <button type="button" class="se-key-test" id="se-tmdb-test">Tester</button>
