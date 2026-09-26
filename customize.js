@@ -5,7 +5,7 @@
   
   let currentStep = 1;
   const TOTAL_STEPS = 5;
-  const STEP_NAMES = ['Region & Lang', 'Filters', 'Categories', 'Streaming', 'Networks'];
+  const STEP_NAMES = ['Région & Langue', 'Filters', 'Categories', 'Streaming', 'Networks'];
   
   const REGION_OPTIONS = [
     { code: 'US', flag: '🇺🇸', label: 'United States' },
@@ -410,12 +410,12 @@
         </div>
       </div>
     `;
-    body.innerHTML = getStepWrapper('Region & Language', 'Set your local preferences and region priorities.', html);
+    body.innerHTML = getStepWrapper('Région & Langue', 'Set your local preferences and region priorities.', html);
     bindNav();
     
     document.getElementById('cust-country').addEventListener('change', (e) => {
       window.customizeState.country = e.target.value;
-      window.customizeState.countries = [e.target.value];
+      window.customizeState.countries = [{ id: "FR", name: "France", flag: "🇫🇷", code: "fr" }];
     });
     document.getElementById('cust-locale').addEventListener('change', (e) => window.customizeState.locale = e.target.value);
     document.getElementById('cust-foreign').addEventListener('change', (e) => window.customizeState.foreignNative = e.target.checked);
