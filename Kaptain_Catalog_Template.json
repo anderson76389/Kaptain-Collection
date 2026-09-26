@@ -41884,7 +41884,8 @@
       },
       "description": "TMDB Discover (movie)"
     },
-    "instId": "10"
+    "instId": "10",
+    "title": "Cinéma international"
   },
   {
     "id": "tmdb.discover.dark_gritty_intense_dark_tv_series",
@@ -73571,7 +73572,8 @@
       },
       "description": "TMDB Discover (tv)"
     },
-    "instId": "10"
+    "instId": "10",
+    "title": "Cinéma international"
   },
   {
     "id": "tmdb.discover.isekai_fantasy_sagas_epic_magic_fantasy_sagas",
@@ -73638,7 +73640,8 @@
       },
       "description": "TMDB Discover (tv)"
     },
-    "instId": "10"
+    "instId": "10",
+    "title": "Cinéma international"
   },
   {
     "id": "tmdb.discover.isekai_fantasy_sagas_new_isekai_releases",
@@ -88361,7 +88364,8 @@
       },
       "description": "TMDB Discover (movie)"
     },
-    "instId": "16"
+    "instId": "16",
+    "title": "Cinéma international"
   },
   {
     "id": "tmdb.discover.history_war_civilizations_ancient_empires_civilizations",
