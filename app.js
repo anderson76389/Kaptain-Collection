@@ -3212,7 +3212,7 @@ function showUpdateFaqModal() {
       <h3 class="popup-title" id="faq-title">FAQ — Updates &amp; installs</h3>
       <div class="faq-body">
         <p><strong>How do I update an older install?</strong><br>
-        Open this tool → Set Up / Envoyer vers NuVio → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
+        Open this tool → Set Up / Envoyer vers NuVio → on each existing row choose <em>Ajouter manquants</em> (keeps your layout). Use <em>Remplacer</em> only when you want that row fully overwritten.</p>
         <p><strong>Does the Nuvio Community Pack auto-update?</strong><br>
         No. Re-open the pack or re-send from this tool when you want the latest.</p>
         <p><strong>Movies empty / “Trakt list not found” on an old profile?</strong><br>
@@ -3668,14 +3668,14 @@ function ensureMobileCompat(actionFn, opts) {
     } else if (currentDevice === 'mobile') {
       if (subEl) subEl.textContent = 'Nuvio Mobile handles carousel lists differently than TV screens.';
       if (rowsSection) rowsSection.style.display = '';
-      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (recommended for mobile)';
+      if (checkText) checkText.textContent = 'Passer en Grille à onglets (recommandé sur mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
       const opt = checkbox ? checkbox.checked : true;
       if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
     } else { // both
-      if (subEl) subEl.textContent = 'We can optimize the layout so it works smoothly across all your screens.';
+      if (subEl) subEl.textContent = 'La disposition sera adaptée pour garantir une navigation fluide sur tous vos écrans.';
       if (rowsSection) rowsSection.style.display = '';
-      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (safe for both TV & Phone)';
+      if (checkText) checkText.textContent = 'Passer en Grille à onglets (optimisé TV & Mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
       const opt = checkbox ? checkbox.checked : true;
       if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
@@ -4568,13 +4568,13 @@ function renderSimpleSettings() {
     : escapeHtml(label);
   const adv = html => (seAdvanced ? html : '');
   host.innerHTML = `
-    <p class="se-settings-intro">The full settings panel: edit folders, sources, and API keys directly. No wizard steps.</p>
+    <p class="se-settings-intro">Panneau complet des paramètres : modifiez directement les dossiers, sources et clés d'API, sans passer par l'assistant.</p>
     <div class="se-mode-toggle" role="group" aria-label="Settings detail level">
-      <button type="button" class="se-mode-btn ${seAdvanced ? '' : 'active'}" id="se-mode-basic" aria-pressed="${!seAdvanced}">Basic</button>
-      <button type="button" class="se-mode-btn ${seAdvanced ? 'active' : ''}" id="se-mode-advanced" aria-pressed="${seAdvanced}">Advanced</button>
+      <button type="button" class="se-mode-btn ${seAdvanced ? '' : 'active'}" id="se-mode-basic" aria-pressed="${!seAdvanced}">Général</button>
+      <button type="button" class="se-mode-btn ${seAdvanced ? 'active' : ''}" id="se-mode-advanced" aria-pressed="${seAdvanced}">Avancé</button>
     </div>
     <h3 class="se-sec-title">Profile</h3>
-    <label class="se-field">Profile name
+    <label class="se-field">Nom du profil
       <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Kaptain's Collection">
     </label>
     <label class="se-field">Profile image URL <span class="se-hint">(public link)</span>
@@ -4592,7 +4592,7 @@ function renderSimpleSettings() {
       <span class="se-field-label">Add your own ${tip('addon', 'addon')}</span>
       <p class="se-note" style="margin:2px 0 8px;">Paste the ${tip('manifest', 'manifest URL')} the addon's own site gives you — it ends in <code>manifest.json</code>.</p>
       <div class="se-addon-add">
-        <input id="se-addon-name" class="se-input" placeholder="Name (e.g. Torrentio)">
+        <input id="se-addon-name" class="se-input" placeholder="Nom (ex. Torrentio)">
         <input id="se-addon-url" class="se-input" placeholder="https://…/manifest.json">
         <button id="se-addon-add-btn" class="se-mini-btn">Add</button>
       </div>
@@ -4600,12 +4600,12 @@ function renderSimpleSettings() {
 
     <h3 class="se-sec-title">Recommendations <span class="se-sec-sub">— what fills "For You"</span></h3>
     <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
-    ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Advanced</strong> at the top.</p>'}
+    ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Avancé</strong> at the top.</p>'}
     ${adv(`
     <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-mdblist-key" class="se-input" value="${v(seSettings.mdblistKey)}" placeholder="MDBList key" autocomplete="off">
-        <button type="button" class="se-key-test" id="se-mdblist-test">Test</button>
+        <button type="button" class="se-key-test" id="se-mdblist-test">Tester</button>
       </span>
     </label>`)}
 
@@ -4614,19 +4614,19 @@ function renderSimpleSettings() {
     <label class="se-field se-advanced-block">${tip('torbox', 'Torbox')} API key
       <span class="se-input-wrap">
         <input id="se-torbox-key" class="se-input" value="${v(seSettings.torboxKey)}" placeholder="xxxxxxxx-xxxx-…" autocomplete="off" spellcheck="false">
-        <button type="button" class="se-key-test" id="se-torbox-test">Test</button>
+        <button type="button" class="se-key-test" id="se-torbox-test">Tester</button>
       </span>
     </label>
     <div class="se-key-status" id="se-torbox-status"></div>
     <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="TMDB v4 key" autocomplete="off">
-        <button type="button" class="se-key-test" id="se-tmdb-test">Test</button>
+        <button type="button" class="se-key-test" id="se-tmdb-test">Tester</button>
       </span>
     </label>`)}
 
     <h3 class="se-sec-title">Genres</h3>
-    <p class="se-note" style="margin-bottom:8px;">Toggle a genre on/off everywhere it appears — Streaming Services, Genres, Networks, all at once.</p>
+    <p class="se-note" style="margin-bottom:8px;">Activez ou désactivez un genre partout où il est présent — Services de Streaming, Genres et Réseaux simultanément.</p>
     <div class="se-genre-list">${getAllGenres().map(g => {
       const st = getGenreSelectionState(g);
       return `<label class="se-genre-row">
@@ -4635,24 +4635,24 @@ function renderSimpleSettings() {
       </label>`;
     }).join('')}</div>
 
-    <h3 class="se-sec-title">Hover Effects</h3>
-    <p class="se-note" style="margin-bottom:8px;">Turn off the animated hover/focus effect on folder cards, in Nuvio itself as well as here.</p>
+    <h3 class="se-sec-title">Effets de survol</h3>
+    <p class="se-note" style="margin-bottom:8px;">Désactive l'animation au survol/focus des cartes de dossiers, dans NuVio et sur ce site.</p>
     <div class="se-genre-list">
       <label class="se-genre-row">
         <input type="checkbox" id="se-gif-disable-streaming" ${gifDisableStreaming ? 'checked' : ''}>
-        <span>Disable on Streaming Services</span>
+        <span>Désactiver sur les Services de Streaming</span>
       </label>
       <label class="se-genre-row">
         <input type="checkbox" id="se-gif-disable-other" ${gifDisableOther ? 'checked' : ''}>
-        <span>Disable everywhere else</span>
+        <span>Désactiver partout ailleurs</span>
       </label>
     </div>
 
-    <h3 class="se-sec-title">Film Collections Duplicates</h3>
-    <p class="se-note" style="margin-bottom:8px;">Some franchises appear both inside a genre folder (e.g. "War Collections") and as their own standalone folder. Pick a side to hide the duplicates in one click — this only changes your current selection, nothing is deleted.</p>
+    <h3 class="se-sec-title">Doublons de sagas cinématographiques</h3>
+    <p class="se-note" style="margin-bottom:8px;">Certaines franchises figurent à la fois dans un dossier de genre (ex. « Collections Guerre ») et sous forme de dossier autonome. Masquez les doublons en un clic — ceci ajuste uniquement votre sélection, aucune donnée n'est supprimée.</p>
     <div class="se-dedup-actions">
-      <button type="button" id="se-dedup-hide-buckets" class="se-mini-btn">Hide genre-bucket copies</button>
-      <button type="button" id="se-dedup-hide-standalone" class="se-mini-btn">Hide standalone copies</button>
+      <button type="button" id="se-dedup-hide-buckets" class="se-mini-btn">Masquer les doublons dans les genres</button>
+      <button type="button" id="se-dedup-hide-standalone" class="se-mini-btn">Masquer les dossiers autonomes</button>
     </div>`;
   wireSimpleSettings();
   document.querySelectorAll('.se-genre-check[data-indeterminate]').forEach(cb => { cb.indeterminate = true; });
