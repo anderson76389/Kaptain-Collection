@@ -1936,7 +1936,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-ERFS5GWK",
-    "title": "Services de Stream",
+    "title": "Services de Streaming",
     "folders": [
       {
         "id": "folder-WFGY1XPD",
