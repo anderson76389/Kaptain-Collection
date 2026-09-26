@@ -1,5 +1,5 @@
 /**
- * Kaptain's Mega Collection — Custom Collection Builder
+ * Kaptain’s Mega Collection — Custom Collection Builder
  * Client-side application logic
  */
 
@@ -20,7 +20,7 @@ const KAPTAIN_VERSION = 'v0.92';
 const KAPTAIN_UPDATED = 'v0.92 • Sep 2026';
 
 // Newest entry first. Bump KAPTAIN_VERSION above whenever a new entry is added here —
-// the title-screen "what's new" banner compares a visitor's last-seen version against this list.
+// the title-screen "what’s new" banner compares a visitor’s last-seen version against this list.
 const CHANGELOG = [
   {
     version: 'v23',
@@ -71,7 +71,7 @@ let previewRows = [];              // array of arrays of focusable elements (foc
 let previewPos = { r: 0, c: 0 };   // current focus position
 let activeCatIdx = 0;              // sidebar jump-nav highlight
 const categorySort = {};           // { catIdx: 'custom'|'az'|'za'|'selected' } — per-row sort preset
-let drawerSearch = '';             // filter text for the open drawer's source list
+let drawerSearch = '';             // filter text for the open drawer’s source list
 
 const CARD_PLUS_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>';
 const CARD_MINUS_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg>';
@@ -149,8 +149,8 @@ function closeSidebar() {
 
 const WALKTHROUGH_STEPS = [
   {
-    title: "Here's the Lay of the Land",
-    body: "What you're looking at is your actual Nuvio home screen. Pick your folders and it updates live: this is the real thing.",
+    title: "Here’s the Lay of the Land",
+    body: "What you’re looking at is your actual Nuvio home screen. Pick your folders and it updates live: this is the real thing.",
     target: null,
     position: 'center',
     nextLabel: 'Show Me Around'
@@ -164,7 +164,7 @@ const WALKTHROUGH_STEPS = [
   },
   {
     title: 'Add & Remove Folders',
-    body: "Every folder shows up as a card. Green border means it's in your collection. Click the + to add one, − to remove it, or open the gear for finer control.",
+    body: "Every folder shows up as a card. Green border means it’s in your collection. Click the + to add one, − to remove it, or open the gear for finer control.",
     target: '.nv-card',
     position: 'right',
     nextLabel: 'Next'
@@ -192,7 +192,7 @@ const WALKTHROUGH_STEPS = [
   },
   {
     title: 'Send Straight to Nuvio',
-    body: "When you're happy, Envoyer vers NuVio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
+    body: "When you’re happy, Envoyer vers NuVio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
     target: '#preview-send',
     position: 'bottom',
     nextLabel: 'Got It'
@@ -204,7 +204,7 @@ const WALKTHROUGH_STEPS = [
 // ==========================================================================
 
 // Public, no-auth hit counter (countapi.xyz died in 2024 — this is Miles
-// Hilliard's drop-in fork, same no-signup/no-key model, different URL shape:
+// Hilliard’s drop-in fork, same no-signup/no-key model, different URL shape:
 // one flat key instead of namespace+key, so the namespace is baked into the
 // key name). Fire-and-forget, never blocks or throws into the UI. No PII,
 // just an integer increment.
@@ -783,7 +783,7 @@ function getSourceKey(source) {
 // ==========================================================================
 
 // Move the item at `fromIdx` one slot in `dir` (-1 up, +1 down). Returns the
-// item's new index (unchanged if it was already at the boundary).
+// item’s new index (unchanged if it was already at the boundary).
 function moveItem(arr, fromIdx, dir) {
   const toIdx = fromIdx + dir;
   if (!Array.isArray(arr) || toIdx < 0 || toIdx >= arr.length) return fromIdx;
@@ -845,7 +845,7 @@ function reorderArrowsHtml(disableUp, disableDown) {
 // Collections, Actors, Legendary Directors, Studios, By Decade, Anime,
 // Awards, International Cinema) or categoryGroupsAreContiguous() below will
 // correctly refuse to render them. An earlier draft grouped By Decade/Anime/
-// International Cinema with Genres/Moods, which isn't where they actually
+// International Cinema with Genres/Moods, which isn’t where they actually
 // sit in the array — 5 groups here instead of 4 to keep both halves honest.
 const CATEGORY_GROUPS = {
   'collection-UGED6TEZ': 'Start Here',            // Discover
@@ -867,7 +867,7 @@ const CATEGORY_GROUPS = {
 // Group headers are only trustworthy when every category belonging to a
 // group is still contiguous in the current order. A-Z/Z-A sorting or manual
 // drag-reordering can freely scramble that — rather than show a header that
-// lies about what's under it, this bails out to the old flat list. An
+// lies about what’s under it, this bails out to the old flat list. An
 // unrecognized category id (a future Studio-added section) does the same.
 function categoryGroupsAreContiguous(categories) {
   const seenGroups = new Set();
@@ -979,7 +979,7 @@ function renderSidebar() {
 
     // Click category name → jump to that row in the preview
     catNavItem.addEventListener('click', (e) => {
-      // Don't navigate if they clicked the toggle or a reorder arrow
+      // Don’t navigate if they clicked the toggle or a reorder arrow
       if (e.target.closest('.cat-toggle') || e.target.closest('.reorder-arrows')) return;
       jumpToCategory(idx);
     });
@@ -1058,7 +1058,7 @@ function toggleCategorySelection(categoryIdx, selectAll) {
 
   renderSidebar();
   if (isPreviewActive) {
-    // Refresh just this category's cards in place so the scroll position holds.
+    // Refresh just this category’s cards in place so the scroll position holds.
     const row = document.getElementById('nv-cat-' + categoryIdx);
     if (row) row.querySelectorAll('.nv-card').forEach(c => { if (c.__folder) refreshCardState(c, c.__folder); });
   } else if (!isGuideActive && currentCategoryIdx === categoryIdx) {
@@ -1167,10 +1167,10 @@ function applyGenreToggle(genre, on) {
 }
 // kept on purpose — some people browse by genre, some by poster): 11
 // genre-bucket folders (many franchise sources each) and ~189 standalone
-// one-franchise folders. A franchise that's properly routed into its genre
+// one-franchise folders. A franchise that’s properly routed into its genre
 // bucket also still has its own standalone folder, so the same tmdbId can
 // appear in both places — this finds those exact duplicates so a user can
-// bulk-hide whichever side they don't want cluttering their selection.
+// bulk-hide whichever side they don’t want cluttering their selection.
 function getFilmCollectionDuplicates() {
   const fc = database.find(c => c.title === 'Film Collections');
   if (!fc) return { bucketDuplicates: [], standaloneDuplicates: [] };
@@ -1288,7 +1288,7 @@ function switchCategory(idx) {
     titleEl.textContent = '';
     subtitleEl.textContent = '';
     setMode('preview');
-    // The preview has its own slim Download / Send bar, so hide the editor's
+    // The preview has its own slim Download / Send bar, so hide the editor’s
     // bottom control-center to avoid a duplicate action bar.
     if (controlCenter) {
       controlCenter.style.opacity = '0';
@@ -1397,9 +1397,9 @@ const ADDON_CATALOG_LABELS = {
   'mdblist.upnext': 'MDBList · Up Next',
 };
 
-// Bingecat's catalog ids are per-installation (not a fixed vocabulary like
-// Trakt's), so they can't be looked up in ADDON_CATALOG_LABELS above — detect
-// them by addonId prefix instead so they don't fall back to "Trakt-powered".
+// Bingecat’s catalog ids are per-installation (not a fixed vocabulary like
+// Trakt’s), so they can’t be looked up in ADDON_CATALOG_LABELS above — detect
+// them by addonId prefix instead so they don’t fall back to "Trakt-powered".
 function isBingecatAddonId(addonId) {
   return typeof addonId === 'string' && addonId.indexOf('com.aicat.') === 0;
 }
@@ -1588,7 +1588,7 @@ function renderFolderGrid() {
           const dir = parseInt(btn.getAttribute('data-dir'), 10);
           moveItem(category.folders, realIdx, dir);
           renderFolderGrid();
-          // renderFolderGrid replaces #content-canvas's whole innerHTML (it IS
+          // renderFolderGrid replaces #content-canvas’s whole innerHTML (it IS
           // the scroll container), which snaps scroll to the top — keep the
           // moved card in view instead of resetting on every click.
           document.querySelector(`[data-folder-key="${CSS.escape(folderKey)}"]`)?.scrollIntoView({ block: 'nearest' });
@@ -1640,7 +1640,7 @@ function renderFolderGrid() {
   });
 }
 
-// Apply a sort preset to the current category's folders, then re-render.
+// Apply a sort preset to the current category’s folders, then re-render.
 function applyFolderSort(mode) {
   const category = database[currentCategoryIdx];
   if (!category || !category.folders) return;
@@ -1774,7 +1774,7 @@ function renderPreviewCollection() {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px;height:13px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
         <span>Enregistrer le fichier</span>
       </button>
-      <button class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Export this selection for Bingecat's addon">
+      <button class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Export this selection for Bingecat’s addon">
         ${bingecatMarkHtml()}
         <span>Bingecat</span>
       </button>
@@ -1800,7 +1800,7 @@ function renderPreviewCollection() {
     empty.className = 'preview-empty';
     empty.innerHTML = `
       <h3>No folders available</h3>
-      <p>This collection doesn't have any folders to show.</p>
+      <p>This collection doesn’t have any folders to show.</p>
     `;
     container.appendChild(empty);
     canvas.appendChild(container);
@@ -1809,8 +1809,8 @@ function renderPreviewCollection() {
   }
 
   // ---- Resolve the featured folder for the hero ----
-  // Keep the current pick if it's still valid; otherwise prefer the first
-  // folder that's in the collection, falling back to the very first folder.
+  // Keep the current pick if it’s still valid; otherwise prefer the first
+  // folder that’s in the collection, falling back to the very first folder.
   let featured = featuredKey ? all.find(p => getFolderKey(p.folder) === featuredKey) : null;
   if (!featured) {
     featured = all.find(p => getFolderSourceCountStats(p.folder).active > 0) || all[0];
@@ -1876,7 +1876,7 @@ function renderPreviewCollection() {
   collectPreviewFocusRows();
   setPreviewHero(featured.folder, featured.category);
 
-  // Start the ambient hero rotation from the featured folder's position.
+  // Start the ambient hero rotation from the featured folder’s position.
   const carouselFolders = getHeroCarouselFolders();
   const featIdx = carouselFolders.findIndex(p => getFolderKey(p.folder) === featuredKey);
   heroCarouselIdx = featIdx >= 0 ? featIdx : 0;
@@ -1996,12 +1996,12 @@ function setPreviewHero(folder, category) {
   }
   eyebrow.textContent = (previewHeroCategory && previewHeroCategory.title
     ? previewHeroCategory.title
-    : "Kaptain's Collection").toUpperCase();
+    : "Kaptain’s Collection").toUpperCase();
   meta.textContent = `${stats.active}/${stats.total} sources`;
 }
 
 // ---- Ambient hero carousel ----------------------------------------------
-// When the user isn't interacting, the hero slowly rotates through the folders
+// When the user isn’t interacting, the hero slowly rotates through the folders
 // that are currently in the collection so the screen never feels frozen. Any
 // hover/focus pauses it (the hero follows the cursor instead); leaving the
 // screen resumes it. Dots under the hero show position and allow jumping.
@@ -2107,7 +2107,7 @@ function buildCatalogRow(title, items, catIdx) {
   return row;
 }
 
-// Sort one category's folders by a preset (reuses the editor's logic).
+// Sort one category’s folders by a preset (reuses the editor’s logic).
 function sortCategoryFolders(catIdx, mode) {
   const category = database[catIdx];
   if (!category || !category.folders) return;
@@ -2122,7 +2122,7 @@ function sortCategoryFolders(catIdx, mode) {
   }
 }
 
-// Rebuild a single category's row in place (keeps scroll; refreshes focus rows).
+// Rebuild a single category’s row in place (keeps scroll; refreshes focus rows).
 function rebuildCategoryRow(catIdx) {
   const oldRow = document.getElementById('nv-cat-' + catIdx);
   if (!oldRow) return;
@@ -2152,7 +2152,7 @@ function buildNuvioCard(folder, category, catIdx) {
   // Fall back to a text title only when the card has no artwork at all.
   const titleFallback = imgSrc ? '' : `<span class="nv-card-title">${folder.title}</span>`;
   // Focus GIF: plays on hover OR keyboard focus, mirroring the editor cards.
-  // The src is attached lazily (on first hover/focus) so we don't fire off
+  // The src is attached lazily (on first hover/focus) so we don’t fire off
   // hundreds of GIF requests when the preview first opens.
   const gifHtml = (folder.focusGifUrl && folder.focusGifEnabled !== false && gifsAllowedForCategory(category))
     ? `<img class="nv-card-gif" data-gif="${folder.focusGifUrl}" alt="">`
@@ -2259,7 +2259,7 @@ function pulseCard(card, added) {
   setTimeout(() => card.classList.remove('card-added', 'card-removed'), 380);
 }
 
-// Sync a single card's visuals to the folder's current selection state.
+// Sync a single card’s visuals to the folder’s current selection state.
 function refreshCardState(card, folder) {
   const stats = getFolderSourceCountStats(folder);
   const on = stats.active > 0;
@@ -2285,7 +2285,7 @@ function getAllFolders() {
   return out;
 }
 
-// Jump-nav: bring a category's row into view (switching back to preview first).
+// Jump-nav: bring a category’s row into view (switching back to preview first).
 function jumpToCategory(idx) {
   activeCatIdx = idx;
   if (!isPreviewActive || isGuideActive) {
@@ -2479,7 +2479,7 @@ function openPreviewDetail(folder, category) {
     return `<span class="nv-chip ${on ? 'on' : 'off'}"><span class="nv-chip-dot provider-${provider}"></span>${escapeHtml(getSourceName(src))}</span>`;
   }).join('') || '<span class="nv-detail-empty">No individual sources.</span>';
 
-  // Layout demo: the View Mode controls how the folder's own catalogs lay out
+  // Layout demo: the View Mode controls how the folder’s own catalogs lay out
   // once you open it — NOT how the home-screen cards look. Show that here.
   const layout = previewLayoutFromViewMode();
   const activeSrc = (folder.sources || []).filter(src => selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(src)]);
@@ -2499,7 +2499,7 @@ function openPreviewDetail(folder, category) {
   }
 
   // Same rule as the hero and the grid cards: when the art already says the
-  // name and there's no separate backdrop, don't draw it a second time.
+  // name and there’s no separate backdrop, don’t draw it a second time.
   const logoHtml = (folder.hideTitle && !folder.heroBackdropUrl)
     ? ''
     : folder.titleLogoUrl
@@ -2532,7 +2532,7 @@ function openPreviewDetail(folder, category) {
         <p class="nv-detail-section-label">Sources feeding this folder · ${stats.active}/${stats.total}</p>
         <div class="nv-detail-chips">${sourceChips}</div>
         <div class="nv-detail-inside">
-          <p class="nv-detail-inside-head">Inside this folder · ${previewLayoutLabel(layout)} <span class="nv-inside-hint">(this folder's internal layout, set by your View Mode, not the home screen)</span></p>
+          <p class="nv-detail-inside-head">Inside this folder · ${previewLayoutLabel(layout)} <span class="nv-inside-hint">(this folder’s internal layout, set by your View Mode, not the home screen)</span></p>
           <div class="nv-faux-stage layout-${layout}">${layoutDemo}</div>
           <p class="nv-faux-note">${noteText}</p>
         </div>
@@ -2616,7 +2616,7 @@ function collectPreviewFocusRows() {
 function clearPreviewFocus() {
   document.querySelectorAll('.nv-focusable.is-focused').forEach(el => el.classList.remove('is-focused'));
 }
-// Scroll only the row's track (horizontally) and the screen's scroll area
+// Scroll only the row’s track (horizontally) and the screen’s scroll area
 // (vertically) — never the outer canvas — so arrow nav behaves predictably.
 function scrollFocusIntoView(el) {
   const track = el.closest('.nv-track');
@@ -2663,14 +2663,14 @@ function setPreviewFocus(r, c, scroll = true) {
   }
 }
 
-// Lazily load a card's focus GIF the first time it's hovered/focused.
+// Lazily load a card’s focus GIF the first time it’s hovered/focused.
 function attachCardGif(card) {
   const gif = card && card.querySelector('.nv-card-gif[data-gif]');
   if (gif) { gif.src = gif.getAttribute('data-gif'); gif.removeAttribute('data-gif'); }
 }
 function handlePreviewKeydown(e) {
   if (!isPreviewActive) return;
-  // Don't hijack arrow keys when the user is interacting with a dropdown/field.
+  // Don’t hijack arrow keys when the user is interacting with a dropdown/field.
   if (e.target && /^(SELECT|INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
   if (document.getElementById('preview-detail')) {
     if (e.key === 'Escape') { e.preventDefault(); closePreviewDetail(); }
@@ -2819,11 +2819,11 @@ function openSourceCustomizationDrawer(folder) {
     if (total === 0) {
       hintEl.textContent = '';
     } else if (enabledCount === 0) {
-      hintEl.textContent = "Nothing's on yet. Flip something on to feed this folder.";
+      hintEl.textContent = "Nothing’s on yet. Flip something on to feed this folder.";
     } else if (enabledCount === total) {
       hintEl.textContent = "Full send. Every feed for this folder is running.";
     } else if (enabledCount === 1 && total >= 4) {
-      hintEl.textContent = "You're running lean, just one feed here.";
+      hintEl.textContent = "You’re running lean, just one feed here.";
     } else {
       hintEl.textContent = `${enabledCount} of ${total} feeds are running.`;
     }
@@ -3037,7 +3037,7 @@ const BINGECAT_IMPORT_ENDPOINT = String(
 // Handoff-only For You rewrite. Same four Bingecat recommendation slots the
 // Nuvio wizard already matches by name (wizard.js BINGECAT_FOLDER_DEFS). We
 // strip Trakt/MDBList/aio-metadata and ship stable placeholders so Bingecat
-// can resolve them to the importing account's real catalogs.
+// can resolve them to the importing account’s real catalogs.
 const BINGECAT_PLACEHOLDER_ADDON_ID = 'bingecat';
 const BINGECAT_FOR_YOU_FOLDER_ID = 'folder-25429024';
 const BINGECAT_FOR_YOU_PLACEHOLDERS = [
@@ -3093,7 +3093,7 @@ function prepareBingecatPayload(customConfig) {
 }
 
 // Renders as the real logo when the asset exists and silently degrades to a
-// glyph when it doesn't, so a missing file never shows a broken image.
+// glyph when it doesn’t, so a missing file never shows a broken image.
 function bingecatMarkHtml(extraClass) {
   return `<span class="bingecat-mark ${extraClass || ''}"><img src="${BINGECAT_LOGO_SRC}" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>`;
 }
@@ -3179,7 +3179,7 @@ async function exportForSelfHost() {
       URL.revokeObjectURL(url);
     }
 
-    // 1. Download AIO Metadata Config (for user's server)
+    // 1. Download AIO Metadata Config (for user’s server)
     triggerDownload(aioStr, `aiometadata_config_${stamp}.json`);
 
     // 2. Download Nuvio Collection JSON (for importing into Nuvio)
@@ -3199,7 +3199,7 @@ async function exportForSelfHost() {
 }
 
 // From the title screen nothing has been curated yet, so asking beats
-// assuming: sending the whole thing and trimming on Bingecat's side is a
+// assuming: sending the whole thing and trimming on Bingecat’s side is a
 // perfectly normal workflow, but so is picking first.
 function showUpdateFaqModal() {
   const existing = document.getElementById('faq-overlay');
@@ -3259,7 +3259,7 @@ function showBingecatStartChoice() {
       </button>
       <button type="button" class="bc-choice-opt" id="bc-choice-edit">
         <span class="bc-choice-opt-title">Edit first</span>
-        <span class="bc-choice-opt-desc">Pick what you want here, then export to Bingecat when you're happy with it.</span>
+        <span class="bc-choice-opt-desc">Pick what you want here, then export to Bingecat when you’re happy with it.</span>
       </button>
       <button type="button" class="bc-choice-cancel" id="bc-choice-cancel">Cancel</button>
     </div>`;
@@ -3310,7 +3310,7 @@ function showSelfHostStartChoice() {
       </button>
       <button type="button" class="bc-choice-opt" id="sh-choice-edit">
         <span class="bc-choice-opt-title">Edit first</span>
-        <span class="bc-choice-opt-desc">Pick what you want here, then export to Auto-hébergement when you're happy with it.</span>
+        <span class="bc-choice-opt-desc">Pick what you want here, then export to Auto-hébergement when you’re happy with it.</span>
       </button>
       <button type="button" class="bc-choice-cancel" id="sh-choice-cancel">Cancel</button>
     </div>`;
@@ -3349,7 +3349,7 @@ function formatFileSize(bytes) {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
-// Shows what's about to land in the Downloads folder before it lands there.
+// Shows what’s about to land in the Downloads folder before it lands there.
 // Resolves "save" or "bingecat" for the selected action, and null when
 // canceled. The BingeCat action is only rendered for BingeCat-originated
 // exports; regular Enregistrer le fichier exports keep the original two-button dialog.
@@ -3369,7 +3369,7 @@ function confirmDownload({ filename, folders, sources, bytes, includeBingecat = 
         </div>
         <p class="dl-confirm-note">${includeBingecat
           ? 'Save it to your usual Downloads folder, or open this selection in BingeCat.'
-          : "It'll go to your usual Downloads folder. You import it into Nuvio yourself afterwards."}</p>
+          : "It’ll go to your usual Downloads folder. You import it into Nuvio yourself afterwards."}</p>
         <div class="dl-confirm-actions">
           <button type="button" class="dl-confirm-cancel" id="dl-confirm-cancel">Cancel</button>
           <button type="button" class="dl-confirm-go" id="dl-confirm-go">Save file</button>
@@ -3405,7 +3405,7 @@ function confirmDownload({ filename, folders, sources, bytes, includeBingecat = 
 }
 
 // `skipConfirm` is for the one place a second prompt would be hostile: the
-// wizard's "Download instead" fallback, offered *after* a push already failed.
+// wizard’s "Download instead" fallback, offered *after* a push already failed.
 async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
   let customConfig = assembleFilteredDatabase();
   customConfig = await applyLocaleToCollection(customConfig);
@@ -3485,7 +3485,7 @@ async function applyLocaleToCollection(collections) {
 }
 
 // `optimize` defaults to the flag decided by the most recent compat gate, so the
-// wizard's no-arg calls stay consistent with what the user chose.
+// wizard’s no-arg calls stay consistent with what the user chose.
 function assembleFilteredDatabase(optimize) {
   const opt = (optimize === undefined) ? lastExportOptimize : optimize;
   const exportViewMode = computeExportViewMode(opt);
@@ -3510,7 +3510,7 @@ function assembleFilteredDatabase(optimize) {
             
             const cust = window.kaptainCustomize || {};
             
-            // Filtres d'exclusion
+            // Filtres d’exclusion
             if (cust.excludeAnime || window.kaptainExcludeAnime) {
                 clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|16' : '16';
                 clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|210024' : '210024';
@@ -4005,7 +4005,7 @@ function bindGlobalEvents() {
   const drawerCloseBtn = document.getElementById('drawer-close');
   if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
 
-  // Drawer select-all / select-none (scoped to the open folder's sources)
+  // Drawer select-all / select-none (scoped to the open folder’s sources)
   const drawerRefreshAfterToggle = () => {
     renderDrawerSourcesList();
     renderFolderGrid();
@@ -4068,7 +4068,7 @@ function bindGlobalEvents() {
   document.getElementById('btn-selfhost-export')?.addEventListener('click', exportForSelfHost);
 
   // Mobile-only FAB — collapses the Browse bar (stats + Download + Send to
-  // Nuvio) behind one button on phones. The bar's own DOM is static (never
+  // Nuvio) behind one button on phones. The bar’s own DOM is static (never
   // rebuilt), so a plain class toggle is enough; no extra state variable.
   const controlFab = document.getElementById('control-fab');
   const controlBar = document.getElementById('control-center-bar');
@@ -4390,10 +4390,10 @@ const seSettings = { profileName: '', avatarUrl: '', torboxKey: '', tmdbKey: '',
 // wrong first impression for someone who only wanted to tick some scrapers.
 let seAdvanced = false;
 
-// TMDB key is only ever collected via the Quick Editor's settings field — the
+// TMDB key is only ever collected via the Quick Editor’s settings field — the
 // mobile-compat export gate checks this to warn when mobile playback will break.
 // Reads the live input directly too, in case the field was edited but seGatherSettings()
-// (called on Send/addon-add) hasn't run yet.
+// (called on Send/addon-add) hasn’t run yet.
 function hasTmdbKey() {
   const live = document.getElementById('se-tmdb-key');
   const val = (live ? live.value : seSettings.tmdbKey) || '';
@@ -4425,7 +4425,7 @@ function openSimpleEditor() {
   updateControlCenterStats();
   notifyAccountSave();
 }
-// Also used by the Quick Editor's own back button. Must NOT route through the
+// Also used by the Quick Editor’s own back button. Must NOT route through the
 // title screen — its CTAs call initializeSelections() and would wipe curation.
 function backToCinematicEditor() {
   document.getElementById('simple-editor-overlay')?.classList.remove('open');
@@ -4568,14 +4568,14 @@ function renderSimpleSettings() {
     : escapeHtml(label);
   const adv = html => (seAdvanced ? html : '');
   host.innerHTML = `
-    <p class="se-settings-intro">Panneau complet des paramètres : modifiez directement les dossiers, sources et clés d'API, sans passer par l'assistant.</p>
+    <p class="se-settings-intro">Panneau complet des paramètres : modifiez directement les dossiers, sources et clés d’API, sans passer par l’assistant.</p>
     <div class="se-mode-toggle" role="group" aria-label="Settings detail level">
       <button type="button" class="se-mode-btn ${seAdvanced ? '' : 'active'}" id="se-mode-basic" aria-pressed="${!seAdvanced}">Général</button>
       <button type="button" class="se-mode-btn ${seAdvanced ? 'active' : ''}" id="se-mode-advanced" aria-pressed="${seAdvanced}">Avancé</button>
     </div>
     <h3 class="se-sec-title">Profile</h3>
     <label class="se-field">Nom du profil
-      <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Kaptain's Collection">
+      <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Kaptain’s Collection">
     </label>
     <label class="se-field">Profile image URL <span class="se-hint">(public link)</span>
       <input id="se-avatar-url" class="se-input" value="${v(seSettings.avatarUrl)}" placeholder="https://…/image.jpg">
@@ -4590,7 +4590,7 @@ function renderSimpleSettings() {
     ${adv(`
     <div class="se-field se-advanced-block">
       <span class="se-field-label">Add your own ${tip('addon', 'addon')}</span>
-      <p class="se-note" style="margin:2px 0 8px;">Paste the ${tip('manifest', 'manifest URL')} the addon's own site gives you — it ends in <code>manifest.json</code>.</p>
+      <p class="se-note" style="margin:2px 0 8px;">Paste the ${tip('manifest', 'manifest URL')} the addon’s own site gives you — it ends in <code>manifest.json</code>.</p>
       <div class="se-addon-add">
         <input id="se-addon-name" class="se-input" placeholder="Nom (ex. Torrentio)">
         <input id="se-addon-url" class="se-input" placeholder="https://…/manifest.json">
@@ -4602,7 +4602,7 @@ function renderSimpleSettings() {
     <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
     ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Avancé</strong> at the top.</p>'}
     ${adv(`
-    <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(facultatif)</span>
+    <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-mdblist-key" class="se-input" value="${v(seSettings.mdblistKey)}" placeholder="MDBList key" autocomplete="off">
         <button type="button" class="se-key-test" id="se-mdblist-test">Tester</button>
@@ -4618,7 +4618,7 @@ function renderSimpleSettings() {
       </span>
     </label>
     <div class="se-key-status" id="se-torbox-status"></div>
-    <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(facultatif)</span>
+    <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="TMDB v4 key" autocomplete="off">
         <button type="button" class="se-key-test" id="se-tmdb-test">Tester</button>
@@ -4636,7 +4636,7 @@ function renderSimpleSettings() {
     }).join('')}</div>
 
     <h3 class="se-sec-title">Effets de survol</h3>
-    <p class="se-note" style="margin-bottom:8px;">Désactive l'animation au survol/focus des cartes de dossiers, dans NuVio et sur ce site.</p>
+    <p class="se-note" style="margin-bottom:8px;">Désactive l’animation au survol/focus des cartes de dossiers, dans NuVio et sur ce site.</p>
     <div class="se-genre-list">
       <label class="se-genre-row">
         <input type="checkbox" id="se-gif-disable-streaming" ${gifDisableStreaming ? 'checked' : ''}>
@@ -4649,7 +4649,7 @@ function renderSimpleSettings() {
     </div>
 
     <h3 class="se-sec-title">Doublons de sagas cinématographiques</h3>
-    <p class="se-note" style="margin-bottom:8px;">Certaines franchises figurent à la fois dans un dossier de genre (ex. « Collections Guerre ») et sous forme de dossier autonome. Masquez les doublons en un clic — ceci ajuste uniquement votre sélection, aucune donnée n'est supprimée.</p>
+    <p class="se-note" style="margin-bottom:8px;">Certaines franchises figurent à la fois dans un dossier de genre (ex. « Collections Guerre ») et sous forme de dossier autonome. Masquez les doublons en un clic — ceci ajuste uniquement votre sélection, aucune donnée n’est supprimée.</p>
     <div class="se-dedup-actions">
       <button type="button" id="se-dedup-hide-buckets" class="se-mini-btn">Masquer les doublons dans les genres</button>
       <button type="button" id="se-dedup-hide-standalone" class="se-mini-btn">Masquer les dossiers autonomes</button>
@@ -4657,8 +4657,8 @@ function renderSimpleSettings() {
   wireSimpleSettings();
   document.querySelectorAll('.se-genre-check[data-indeterminate]').forEach(cb => { cb.indeterminate = true; });
 }
-// Live "does this key actually work" check, matching the wizard's own Test
-// buttons so a key can't be silently accepted here and rejected there.
+// Live "does this key actually work" check, matching the wizard’s own Test
+// buttons so a key can’t be silently accepted here and rejected there.
 function wireSeKeyTest(buttonId, fieldId, testFnName) {
   const btn = document.getElementById(buttonId);
   const field = document.getElementById(fieldId);
@@ -4686,7 +4686,7 @@ function wireSimpleSettings() {
     btn.addEventListener('click', () => {
       const wantAdvanced = id === 'se-mode-advanced';
       if (wantAdvanced === seAdvanced) return;
-      seGatherSettings();   // don't lose anything typed before the switch
+      seGatherSettings();   // don’t lose anything typed before the switch
       seAdvanced = wantAdvanced;
       renderSimpleSettings();
     });
@@ -4931,7 +4931,7 @@ function showWalkthroughStep(index) {
   const needsPreviewSecondary = !!(targetEl && targetEl.closest('#nv-preview-secondary'));
   if (needsPreviewSecondary) openPreviewSecondary(); else closePreviewSecondary();
 
-  // The sidebar's slide transition is --transition-normal (300ms); give it
+  // The sidebar’s slide transition is --transition-normal (300ms); give it
   // room to finish so we never measure a target mid-animation.
   const delay = needsSidebar ? 360 : 130;
 
@@ -4961,7 +4961,7 @@ function showWalkthroughStep(index) {
     if (!step.target || !targetEl) {
       // Centered modal, no spotlight. Compute the centered position in JS
       // (rather than a CSS `transform: translate(-50%,-50%)`) so it never
-      // fights the entrance fade's own transform when switching steps.
+      // fights the entrance fade’s own transform when switching steps.
       spotlight.classList.add('hidden');
       tooltip.classList.add('wt-centered');
       tooltip.style.top = '';
@@ -5001,7 +5001,7 @@ function positionWalkthroughTooltip(targetRect, position, pad) {
   const gap = 24;
   const margin = 20;
 
-  // Reset before measuring so the tooltip's own (responsive) size is current
+  // Reset before measuring so the tooltip’s own (responsive) size is current
   tooltip.style.top = '';
   tooltip.style.left = '';
 
@@ -5010,7 +5010,7 @@ function positionWalkthroughTooltip(targetRect, position, pad) {
   const vw = window.innerWidth;
   const vh = window.innerHeight;
 
-  // The spotlight is padded outward from the raw target rect; that's the
+  // The spotlight is padded outward from the raw target rect; that’s the
   // box the tooltip must stay clear of.
   const box = {
     top: targetRect.top - pad,
@@ -5024,7 +5024,7 @@ function positionWalkthroughTooltip(targetRect, position, pad) {
   const spaceBelow = vh - box.bottom;
   const spaceAbove = box.top;
 
-  // Flip to the opposite side when the requested side doesn't have room
+  // Flip to the opposite side when the requested side doesn’t have room
   let side = position;
   if (side === 'right' && spaceRight < tw + gap && spaceLeft >= tw + gap) side = 'left';
   if (side === 'left' && spaceLeft < tw + gap && spaceRight >= tw + gap) side = 'right';
@@ -5417,7 +5417,7 @@ async function performQuickPush() {
     closeQuickPushModal();
     const msg = (e && e.message) || '';
     const isAuthErr = msg === 'no_auth' || msg === 'no_state' || /401|403|unauthorized|expired/i.test(msg);
-    showToast(isAuthErr ? 'Session expired. Running full Setup.' : `Couldn't reach Nuvio. Trying full Setup.`, 'error');
+    showToast(isAuthErr ? 'Session expired. Running full Setup.' : `Couldn’t reach Nuvio. Trying full Setup.`, 'error');
     setTimeout(() => {
       if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
     }, 600);

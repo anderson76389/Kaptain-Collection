@@ -465,7 +465,7 @@
         </div>
         <div class="cust-info-text">
           <strong>La recherche directe reste active</strong>
-          <p>Ces filtres s'appliquent uniquement aux lignes générées sur l'accueil. Vous pouvez toujours rechercher n'importe quel titre dans NuVio.</p>
+          <p>Ces filtres s’appliquent uniquement aux lignes générées sur l’accueil. Vous pouvez toujours rechercher n’importe quel titre dans NuVio.</p>
         </div>
       </div>
 
@@ -475,7 +475,7 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">🌸</div>
             <div class="cust-filter-text">
-              <h4>Pas d'animés</h4>
+              <h4>Pas d’animés</h4>
               <p>Exclut la catégorie Animés et masque les animés des sélections Découverte</p>
             </div>
           </div>
@@ -490,8 +490,8 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">👻</div>
             <div class="cust-filter-text">
-              <h4>Pas d'horreur</h4>
-              <p>Exclut le dossier Horreur et masque l'horreur des sélections Découverte</p>
+              <h4>Pas d’horreur</h4>
+              <p>Exclut le dossier Horreur et masque l’horreur des sélections Découverte</p>
             </div>
           </div>
           <div class="cust-filter-badge">
@@ -548,8 +548,8 @@
 
       <div class="cust-slider-panel">
         <div class="cust-slider-head">
-          <h4>Quel niveau d'exigence pour les sélections ?</h4>
-          <p>S'applique uniquement aux lignes de découverte ayant un seuil minimum de votes. Vos listes et sélections Trakt restent intactes. Glissez vers la droite pour des titres plus populaires ; vers la gauche pour un catalogue plus large.</p>
+          <h4>Quel niveau d’exigence pour les sélections ?</h4>
+          <p>S’applique uniquement aux lignes de découverte ayant un seuil minimum de votes. Vos listes et sélections Trakt restent intactes. Glissez vers la droite pour des titres plus populaires ; vers la gauche pour un catalogue plus large.</p>
         </div>
         <label class="cust-slider-row">
           <span class="cust-slider-label">Notoriété</span>
@@ -565,7 +565,7 @@
         <p class="cust-slider-example">Facultatif. Rehausse uniquement les lignes exigeant déjà une note minimale (comme Humeurs). Laissez désactivé sauf si vous souhaitez une sélection encore plus stricte.</p>
       </div>
     `;
-    body.innerHTML = getStepWrapper('Filtres d'exclusion', 'Sélectionnez les catégories de contenu à exclure de vos dossiers.', html);
+    body.innerHTML = getStepWrapper('Filtres d’exclusion', 'Sélectionnez les catégories de contenu à exclure de vos dossiers.', html);
     bindNav();
     
     ['anime','horror','romance','kids','reality'].forEach(key => {
@@ -823,7 +823,7 @@
     }
     window.collectionData = data;
     
-    // Default to everything selected so users only uncheck what they don't want
+    // Default to everything selected so users only uncheck what they don’t want
     initSelectAllDefaults(data);
     
     overlay.hidden = false;
