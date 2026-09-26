@@ -40289,9 +40289,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_liveaction_romantic_comedies",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
+    "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Live-Action Romantic Comedies",
-    "name": "Comédies romantiques en direct",
+    "name": "Comédies romantiques",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40322,9 +40322,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_heartwarming_tv_comedies_dramas",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
+    "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Heartwarming TV Comedies & Dramas",
-    "name": "Comédies et drames télé réconfortants",
+    "name": "Séries Feel-Good (Comédies & Drames)",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -40354,9 +40354,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_cozy_romantic_stories",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
-    "sourceTitle": "Cozy Romantic Stories",
-    "name": "Histoires romantiques et douillettes",
+    "folderTitle": "Feel-Good & Comforting",
+    "sourceTitle": "Feel-Good Romantic Stories",
+    "name": "Romances douces & chaleureuses",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40388,9 +40388,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_acclaimed_feelgood_classics",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
+    "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Acclaimed Feel-Good Classics",
-    "name": "Classiques du bien-être acclamés",
+    "name": "Incontournables Feel-Good",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40421,9 +40421,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_cozy_animated_favorites",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
-    "sourceTitle": "Cozy Animated Favorites",
-    "name": "Favoris animés confortables",
+    "folderTitle": "Feel-Good & Comforting",
+    "sourceTitle": "Feel-Good Animated Favorites",
+    "name": "Animation Feel-Good",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40453,9 +40453,9 @@
   {
     "id": "tmdb.discover.cozy_comforting_recent_cozy_releases",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Cozy & Comforting",
-    "sourceTitle": "Recent Cozy Releases",
-    "name": "Sorties récentes de Cozy",
+    "folderTitle": "Feel-Good & Comforting",
+    "sourceTitle": "Recent Feel-Good Releases",
+    "name": "Nouveautés Feel-Good",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -73781,8 +73781,8 @@
     "id": "tmdb.discover.slice_of_life_romance_cozy_relaxing_favorites",
     "collectionTitle": "Anime",
     "folderTitle": "Slice of Life & Romance",
-    "sourceTitle": "Cozy & Relaxing Favorites",
-    "name": "Favoris confortables et relaxants",
+    "sourceTitle": "Feel-Good & Relaxing Favorites",
+    "name": "Favoris Feel-Good et relaxants",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -90704,7 +90704,7 @@
     "id": "tmdb.discover.culinary_battles_cooking_shows_cozy_baking_competitions",
     "collectionTitle": "Reality TV",
     "folderTitle": "Culinary Battles & Cooking Shows",
-    "sourceTitle": "Cozy Baking Competitions",
+    "sourceTitle": "Feel-Good Baking Competitions",
     "name": "Concours de pâtisserie conviviale",
     "type": "series",
     "source": "tmdb",

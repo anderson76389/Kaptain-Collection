@@ -28982,18 +28982,18 @@ window.NUVIO_DATABASE = [
     "folders": [
       {
         "id": "folder-W52X6SMF",
-        "title": "Confortable et réconfortant",
+        "title": "Feel-Good et réconfortant",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/cozy-and-comforting-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-hover.gif",
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/Feel-Good-and-comforting/v2/Feel-Good-and-comforting-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/Feel-Good-and-comforting/v2/Feel-Good-and-comforting-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/Feel-Good-and-comforting/Feel-Good-and-comforting-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/Feel-Good-and-comforting/v2/Feel-Good-and-comforting-hover.gif",
         "focusGifEnabled": true,
         "sources": [
           {
             "id": "src-6P4FKCTO",
-            "title": "Comédies romantiques en direct",
+            "title": "Comédies romantiques",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29008,12 +29008,12 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
             },
-            "genre": "Comédies romantiques en direct",
-            "name": "Comédies romantiques en direct"
+            "genre": "Comédies romantiques",
+            "name": "Comédies romantiques"
           },
           {
             "id": "src-7PMKMI95",
-            "title": "Comédies et drames télé réconfortants",
+            "title": "Séries Feel-Good (Comédies & Drames)",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -29026,12 +29026,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Comédies et drames télé réconfortants",
-            "name": "Comédies et drames télé réconfortants"
+            "genre": "Séries Feel-Good (Comédies & Drames)",
+            "name": "Séries Feel-Good (Comédies & Drames)"
           },
           {
             "id": "src-1HHL2R9R",
-            "title": "Histoires romantiques et douillettes",
+            "title": "Romances douces & chaleureuses",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29052,7 +29052,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-W9CGV995",
-            "title": "Classiques du bien-être acclamés",
+            "title": "Incontournables Feel-Good",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29066,12 +29066,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Classiques du bien-être acclamés",
-            "name": "Classiques du bien-être acclamés"
+            "genre": "Incontournables Feel-Good",
+            "name": "Incontournables Feel-Good"
           },
           {
             "id": "src-VY164913",
-            "title": "Favoris animés confortables",
+            "title": "Animation Feel-Good",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29082,12 +29082,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 75,
               "vote_count.gte": 75
             },
-            "genre": "Favoris animés confortables",
-            "name": "Favoris animés confortables"
+            "genre": "Animation Feel-Good",
+            "name": "Animation Feel-Good"
           },
           {
             "id": "src-SWETRLWO",
-            "title": "Sorties récentes de Cozy",
+            "title": "Nouveautés Feel-Good",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29103,8 +29103,8 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
             },
-            "genre": "Sorties récentes de Cozy",
-            "name": "Sorties récentes de Cozy"
+            "genre": "Nouveautés Feel-Good",
+            "name": "Nouveautés Feel-Good"
           }
         ]
       },
@@ -60369,7 +60369,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-BU2GQ7OO",
-            "title": "Favoris confortables et relaxants",
+            "title": "Favoris Feel-Good et relaxants",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -60386,8 +60386,8 @@ window.NUVIO_DATABASE = [
               "with_genres": "16,35",
               "with_original_language": "ja"
             },
-            "genre": "Favoris confortables et relaxants",
-            "name": "Favoris confortables et relaxants"
+            "genre": "Favoris Feel-Good et relaxants",
+            "name": "Favoris Feel-Good et relaxants"
           },
           {
             "id": "src-K1S5MCMN",
