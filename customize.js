@@ -440,7 +440,7 @@
   function voteScaleHint() {
     const hints = [
       'Shows more titles, including quieter ones with fewer votes.',
-      'Keeps each row’s normal Studio filter (recommended for most people).',
+      'Conserve le filtre habituel par studio (recommandé pour la majorité).',
       'Raises the bar so rows lean toward titles more people have rated.',
       'Strictest — mostly heavily rated, widely known titles.',
     ];
@@ -464,8 +464,8 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
         </div>
         <div class="cust-info-text">
-          <strong>Direct Search Remains Unlocked</strong>
-          <p>These filters only tailor your auto-populated home screen rows. You can still search for any title directly in Nuvio anytime.</p>
+          <strong>La recherche directe reste active</strong>
+          <p>Ces filtres s'appliquent uniquement aux lignes générées sur l'accueil. Vous pouvez toujours rechercher n'importe quel titre dans NuVio.</p>
         </div>
       </div>
 
@@ -475,12 +475,12 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">🌸</div>
             <div class="cust-filter-text">
-              <h4>No Anime</h4>
-              <p>Excludes Anime category & filters anime from discovery rows</p>
+              <h4>Pas d'animés</h4>
+              <p>Exclut la catégorie Animés et masque les animés des sélections Découverte</p>
             </div>
           </div>
           <div class="cust-filter-badge">
-            <span class="badge-off">Included</span>
+            <span class="badge-off">Inclus</span>
             <span class="badge-on">Excluded</span>
           </div>
         </label>
@@ -490,12 +490,12 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">👻</div>
             <div class="cust-filter-text">
-              <h4>No Horror</h4>
-              <p>Excludes Horror folder & filters horror from discovery</p>
+              <h4>Pas d'horreur</h4>
+              <p>Exclut le dossier Horreur et masque l'horreur des sélections Découverte</p>
             </div>
           </div>
           <div class="cust-filter-badge">
-            <span class="badge-off">Included</span>
+            <span class="badge-off">Inclus</span>
             <span class="badge-on">Excluded</span>
           </div>
         </label>
@@ -505,12 +505,12 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">💖</div>
             <div class="cust-filter-text">
-              <h4>No Romance</h4>
-              <p>Excludes Romance folder & filters romance from discovery</p>
+              <h4>Pas de romance</h4>
+              <p>Exclut le dossier Romance et masque les romances de la découverte</p>
             </div>
           </div>
           <div class="cust-filter-badge">
-            <span class="badge-off">Included</span>
+            <span class="badge-off">Inclus</span>
             <span class="badge-on">Excluded</span>
           </div>
         </label>
@@ -520,12 +520,12 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">🧸</div>
             <div class="cust-filter-text">
-              <h4>No Kids Content</h4>
-              <p>Excludes Kids & Family sections & filters family titles</p>
+              <h4>Pas de contenu enfants</h4>
+              <p>Exclut les sections Jeunesse & Famille et masque ces titres</p>
             </div>
           </div>
           <div class="cust-filter-badge">
-            <span class="badge-off">Included</span>
+            <span class="badge-off">Inclus</span>
             <span class="badge-on">Excluded</span>
           </div>
         </label>
@@ -535,12 +535,12 @@
           <div class="cust-filter-body">
             <div class="cust-filter-emoji">📺</div>
             <div class="cust-filter-text">
-              <h4>No Reality TV</h4>
-              <p>Excludes Reality TV category & filters reality from discovery</p>
+              <h4>Pas de téléréalité</h4>
+              <p>Exclut la catégorie Téléréalité et masque ces émissions</p>
             </div>
           </div>
           <div class="cust-filter-badge">
-            <span class="badge-off">Included</span>
+            <span class="badge-off">Inclus</span>
             <span class="badge-on">Excluded</span>
           </div>
         </label>
@@ -548,24 +548,24 @@
 
       <div class="cust-slider-panel">
         <div class="cust-slider-head">
-          <h4>How picky should the rows be?</h4>
-          <p>This only affects Discover-style rows that already have a “how many people rated this” floor. Your lists and Trakt shelves stay as-is. Drag right for safer, more popular picks; left for a wider net.</p>
+          <h4>Quel niveau d'exigence pour les sélections ?</h4>
+          <p>S'applique uniquement aux lignes de découverte ayant un seuil minimum de votes. Vos listes et sélections Trakt restent intactes. Glissez vers la droite pour des titres plus populaires ; vers la gauche pour un catalogue plus large.</p>
         </div>
         <label class="cust-slider-row">
-          <span class="cust-slider-label">Familiarity</span>
+          <span class="cust-slider-label">Notoriété</span>
           <input type="range" id="cust-vote-scale" min="0" max="3" step="1" value="${voteScaleIndex()}">
           <span class="cust-slider-value" id="cust-vote-scale-val">${voteScaleLabel()}</span>
         </label>
         <p class="cust-slider-example" id="cust-vote-scale-hint">${voteScaleHint()}</p>
         <label class="cust-slider-row">
-          <span class="cust-slider-label">Score boost</span>
+          <span class="cust-slider-label">Score minimum rehaussé</span>
           <input type="range" id="cust-rating-bump" min="0" max="2" step="1" value="${ratingBumpIndex()}">
           <span class="cust-slider-value" id="cust-rating-bump-val">${ratingBumpLabel()}</span>
         </label>
-        <p class="cust-slider-example">Optional. Only raises rows that already require a minimum star score (like Moods). Leave Off unless you want those shelves even choosier.</p>
+        <p class="cust-slider-example">Facultatif. Rehausse uniquement les lignes exigeant déjà une note minimale (comme Humeurs). Laissez désactivé sauf si vous souhaitez une sélection encore plus stricte.</p>
       </div>
     `;
-    body.innerHTML = getStepWrapper('Negative Filters', 'Select any content types you want excluded from your folders.', html);
+    body.innerHTML = getStepWrapper('Filtres d'exclusion', 'Sélectionnez les catégories de contenu à exclure de vos dossiers.', html);
     bindNav();
     
     ['anime','horror','romance','kids','reality'].forEach(key => {

@@ -25,7 +25,7 @@ const CHANGELOG = [
   {
     version: 'v23',
     items: [
-      'AIO Streams setup is now a guided step-by-step flow, matching Native Mode',
+      'AIO Streams setup is now a guided step-by-step flow, matching Mode Natif',
       'Sending to an existing profile now lets you fully reorder every row, not just top/bottom',
       'Fixed old rows silently sticking around after you deselected them and re-sent',
       'Added bulk genre selection (e.g. select "Horror" everywhere at once) in the Quick Editor',
@@ -334,7 +334,7 @@ function showFriendsOfKaptainChooser() {
       <h3 class="popup-title" id="friends-chooser-title">Friends of Kaptain</h3>
       <p class="friends-chooser-intro">Browse collections from other creators with the same picker and Send to Nuvio flow. Their lists stay as they built them. This tool handles the setup.</p>
       <div class="friends-chooser-list">${cards}</div>
-      <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Back</button>
+      <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Retour</button>
     </div>`;
   document.body.appendChild(overlay);
   void overlay.offsetHeight;
@@ -3510,7 +3510,7 @@ function assembleFilteredDatabase(optimize) {
             
             const cust = window.kaptainCustomize || {};
             
-            // Negative Filters
+            // Filtres d'exclusion
             if (cust.excludeAnime || window.kaptainExcludeAnime) {
                 clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|16' : '16';
                 clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|210024' : '210024';
