@@ -29,8 +29,8 @@ const CHANGELOG = [
       'Sending to an existing profile now lets you fully reorder every row, not just top/bottom',
       'Fixed old rows silently sticking around after you deselected them and re-sent',
       'Added bulk genre selection (e.g. select "Horror" everywhere at once) in the Quick Editor',
-      'Fixed the Quick Editor "‹ Menu" button wiping your selections',
-      'Kept cinematic and Quick Editor selections/order in sync when switching between them',
+      'Fixed the Éditeur rapide "‹ Menu" button wiping your selections',
+      'Kept cinematic and Éditeur rapide selections/order in sync when switching between them',
       'Fixed broken artwork for French, Indian, and Korean Cinema',
       'Added a no-signin "Export for Bingecat" option',
       'Dozens of smaller fixes and polish across the setup wizard',
@@ -63,7 +63,7 @@ let previewDevice = (() => { try { return localStorage.getItem('kaptain_preview_
 // Whether the mobile-only "more options" panel (device toggle / reorder /
 // editor view / layout / help) is expanded above the slim phone bottom bar.
 let previewMoreOpen = false;
-// Whether the mobile-only preview bar itself (Download / Send to Nuvio / ⋯,
+// Whether the mobile-only preview bar itself (Download / Envoyer vers NuVio / ⋯,
 // plus whatever the ⋯ reveals) is expanded out of its collapsed FAB.
 let previewBarOpen = false;
 let featuredKey = null;            // folderKey shown in the preview hero
@@ -185,14 +185,14 @@ const WALKTHROUGH_STEPS = [
   },
   {
     title: 'Layout, Sort & Reorder',
-    body: "Switch how everything lays out inside Nuvio (Rows, Tabbed Grid, or Auto), and turn on Reorder to drag sections and folders into your own order. On a phone, tap the ⋯ button to find these.",
+    body: "Switch how everything lays out inside Nuvio (Rows, Tabbed Grid, or Auto), and turn on Réorganiser to drag sections and folders into your own order. On a phone, tap the ⋯ button to find these.",
     target: '.nv-preview-secondary',
     position: 'bottom',
     nextLabel: 'Next'
   },
   {
     title: 'Send Straight to Nuvio',
-    body: "When you're happy, Send to Nuvio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
+    body: "When you're happy, Envoyer vers NuVio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
     target: '#preview-send',
     position: 'bottom',
     nextLabel: 'Got It'
@@ -332,7 +332,7 @@ function showFriendsOfKaptainChooser() {
   overlay.innerHTML = `
     <div class="popup-panel friends-chooser-panel" role="dialog" aria-modal="true" aria-labelledby="friends-chooser-title">
       <h3 class="popup-title" id="friends-chooser-title">Friends of Kaptain</h3>
-      <p class="friends-chooser-intro">Browse collections from other creators with the same picker and Send to Nuvio flow. Their lists stay as they built them. This tool handles the setup.</p>
+      <p class="friends-chooser-intro">Browse collections from other creators with the same picker and Envoyer vers NuVio flow. Their lists stay as they built them. This tool handles the setup.</p>
       <div class="friends-chooser-list">${cards}</div>
       <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Retour</button>
     </div>`;
@@ -1305,7 +1305,7 @@ function switchCategory(idx) {
       const stats = getCategorySelectionStats(currentCategoryIdx);
       titleEl.textContent = category.title;
       subtitleEl.textContent = reorderMode
-        ? 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Reorder again to finish.'
+        ? 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Réorganiser again to finish.'
         : `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
 
       if (category.folders && category.folders.length > 0) {
@@ -1491,7 +1491,7 @@ function renderFolderGrid() {
     return;
   }
 
-  // Reorder arrows are only safe when the full, unfiltered list is shown.
+  // Réorganiser arrows are only safe when the full, unfiltered list is shown.
   const showArrows = reorderMode && query === '';
   if (showArrows) grid.classList.add('reordering');
 
@@ -1580,7 +1580,7 @@ function renderFolderGrid() {
     });
 
     if (showArrows) {
-      // Reorder mode: arrows move the folder; selection/drawer clicks are suppressed.
+      // Réorganiser mode: arrows move the folder; selection/drawer clicks are suppressed.
       card.querySelectorAll('.reorder-arrow').forEach((btn) => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -1743,21 +1743,21 @@ function renderPreviewCollection() {
         </button>
         <button class="nv-device-opt ${previewDevice === 'mobile' ? 'active' : ''}" data-device="mobile" role="tab">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2.5"></rect><line x1="12" y1="18" x2="12" y2="18"></line></svg>
-          <span>Phone</span>
+          <span>Mobile</span>
         </button>
       </div>
       <button class="nv-reorder-toggle ${reorderMode ? 'active' : ''}" id="preview-reorder" title="Reorder mode: show up/down arrows to move sections, folders & sources by hand">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-        <span>Reorder</span>
+        <span>Réorganiser</span>
       </button>
       <button class="nv-reorder-toggle" id="preview-editorview" title="Quick Editor: the full settings panel for folders, sources, and API keys, no wizard required">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
-        <span>Quick Editor</span>
+        <span>Éditeur rapide</span>
       </button>
       <div class="nv-viewmode-combo" title="How your folders lay out inside Nuvio, also written to your export. Tabbed Grid is the mobile-safe pick.">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;color:var(--text-muted);"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
         <select id="preview-viewmode" class="topbar-select" aria-label="View mode">
-          <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
+          <option value="FOLLOW_LAYOUT" selected>Disposition auto</option>
           <option value="ROWS">Rows</option>
           <option value="TABBED_GRID">Tabbed Grid</option>
         </select>
@@ -1772,7 +1772,7 @@ function renderPreviewCollection() {
       </button>
       <button class="btn-secondary nv-mini-btn" id="preview-download" title="Download your collection file">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px;height:13px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
-        <span>Save File</span>
+        <span>Enregistrer le fichier</span>
       </button>
       <button class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Export this selection for Bingecat's addon">
         ${bingecatMarkHtml()}
@@ -1780,11 +1780,11 @@ function renderPreviewCollection() {
       </button>
       <button class="btn-secondary nv-mini-btn" id="preview-selfhost" title="Export this selection for a self-hosted AIO Metadata instance">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;margin-right:6px;vertical-align:text-bottom;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
-        <span>Self-Host</span>
+        <span>Auto-hébergement</span>
       </button>
       <button class="btn-primary nv-mini-btn" id="preview-send" title="Send your collection straight to Nuvio">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
-        <span>Send to Nuvio</span>
+        <span>Envoyer vers NuVio</span>
       </button>
     </div>
     </div>
@@ -2861,7 +2861,7 @@ function renderDrawerSourcesList() {
     return;
   }
 
-  // Reorder arrows are only safe to show against the full, unfiltered list.
+  // Réorganiser arrows are only safe to show against the full, unfiltered list.
   const showArrows = reorderMode && query === '';
 
   filteredSources.forEach((source) => {
@@ -3064,7 +3064,7 @@ function buildBingecatForYouPlaceholderSources() {
   return sources;
 }
 
-// Bingecat Open-in path only — Nuvio Save File / Send keep Trakt For You.
+// Bingecat Open-in path only — Nuvio Enregistrer le fichier / Send keep Trakt For You.
 function prepareBingecatPayload(customConfig) {
   const placeholders = buildBingecatForYouPlaceholderSources();
   const catalogSources = placeholders.map((s) => ({
@@ -3158,7 +3158,7 @@ async function exportForSelfHost() {
   const popup = document.getElementById('popup-overlay');
   if (popup) popup.classList.add('open');
   const popupTitle = document.getElementById('popup-title');
-  if (popupTitle) popupTitle.textContent = 'Generating Self-Host Export...';
+  if (popupTitle) popupTitle.textContent = 'Generating Auto-hébergement Export...';
 
   try {
     const result = await window.NuvioWizard.generateSelfHostExport();
@@ -3212,7 +3212,7 @@ function showUpdateFaqModal() {
       <h3 class="popup-title" id="faq-title">FAQ — Updates &amp; installs</h3>
       <div class="faq-body">
         <p><strong>How do I update an older install?</strong><br>
-        Open this tool → Set Up / Send to Nuvio → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
+        Open this tool → Set Up / Envoyer vers NuVio → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
         <p><strong>Does the Nuvio Community Pack auto-update?</strong><br>
         No. Re-open the pack or re-send from this tool when you want the latest.</p>
         <p><strong>Movies empty / “Trakt list not found” on an old profile?</strong><br>
@@ -3224,7 +3224,7 @@ function showUpdateFaqModal() {
         <p><strong>Pack → Bingecat?</strong><br>
         Remove or leave the old Pack rows on your profile, then send via the Bingecat button so you are not running two full copies.</p>
         <p><strong>Hover GIFs draining battery?</strong><br>
-        Open Quick Editor → Settings and turn off hover GIFs. Cards fall back to the static PNG cover.</p>
+        Open Éditeur rapide → Settings and turn off hover GIFs. Cards fall back to the static PNG cover.</p>
         <p><strong>Vote &amp; rating sliders in Guided Setup?</strong><br>
         They scale each row’s own Studio floor — they do not stamp one number on every folder. Genre Top All Time stays much stricter than New Movies. Rating nudge only applies where a rating floor already exists (Moods). Lists and Trakt sources are not changed.</p>
       </div>
@@ -3302,7 +3302,7 @@ function showSelfHostStartChoice() {
       <div class="bc-choice-mark bingecat-mark--full" style="background:#4a4a4a; display:flex; align-items:center; justify-content:center; border-radius:50%; width:64px; height:64px; margin: 0 auto 16px;">
         <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:32px;height:32px;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
       </div>
-      <h3 class="popup-title" id="sh-choice-title">Export for Self-Host</h3>
+      <h3 class="popup-title" id="sh-choice-title">Export for Auto-hébergement</h3>
       <p class="bc-choice-note">Export the collection as a single JSON config for your own AIO Metadata instance. What should be included?</p>
       <button type="button" class="bc-choice-opt" id="sh-choice-full">
         <span class="bc-choice-opt-title">Full Mega Collection</span>
@@ -3310,7 +3310,7 @@ function showSelfHostStartChoice() {
       </button>
       <button type="button" class="bc-choice-opt" id="sh-choice-edit">
         <span class="bc-choice-opt-title">Edit first</span>
-        <span class="bc-choice-opt-desc">Pick what you want here, then export to Self-Host when you're happy with it.</span>
+        <span class="bc-choice-opt-desc">Pick what you want here, then export to Auto-hébergement when you're happy with it.</span>
       </button>
       <button type="button" class="bc-choice-cancel" id="sh-choice-cancel">Cancel</button>
     </div>`;
@@ -3339,7 +3339,7 @@ function showSelfHostStartChoice() {
   overlay.querySelector('#sh-choice-edit').addEventListener('click', () => {
     dismiss();
     hideTitleScreen();
-    showToast('Pick what you want, then hit "Self-Host" in the bar below to export.', 'success');
+    showToast('Pick what you want, then hit "Auto-hébergement" in the bar below to export.', 'success');
   });
 }
 
@@ -3352,7 +3352,7 @@ function formatFileSize(bytes) {
 // Shows what's about to land in the Downloads folder before it lands there.
 // Resolves "save" or "bingecat" for the selected action, and null when
 // canceled. The BingeCat action is only rendered for BingeCat-originated
-// exports; regular Save File exports keep the original two-button dialog.
+// exports; regular Enregistrer le fichier exports keep the original two-button dialog.
 function confirmDownload({ filename, folders, sources, bytes, includeBingecat = false }) {
   return new Promise((resolve) => {
     const overlay = document.createElement('div');
@@ -3616,7 +3616,7 @@ function assembleFilteredDatabase(optimize) {
 }
 
 // Gate any export/push behind the device & mobile-compatibility check.
-// Allows the user to select TV, Mobile, or Both, with Follow Layout as
+// Allows the user to select TV, Mobile, or Both, with Disposition as
 // the instant 1-click default for TV, and Tabbed Grid optional for Mobile.
 function ensureMobileCompat(actionFn, opts) {
   if (typeof actionFn !== 'function') return;
@@ -3661,7 +3661,7 @@ function ensureMobileCompat(actionFn, opts) {
     const needsTmdb = checkTmdb && isMobileSelected && !hasTmdbKey();
 
     if (currentDevice === 'tv') {
-      if (subEl) subEl.textContent = 'TV uses Follow Layout by default for the genuine Nuvio home screen look.';
+      if (subEl) subEl.textContent = 'TV uses Disposition by default for the genuine Nuvio home screen look.';
       if (rowsSection) rowsSection.style.display = 'none';
       if (tmdbSection) tmdbSection.style.display = 'none';
       if (continueText) continueText.textContent = `${actionLabel} (Follow Layout) →`;
@@ -3745,7 +3745,7 @@ function isSimpleEditorOpen() {
   return !!(ov && ov.classList.contains('open'));
 }
 
-// Keep cinematic preview + Quick Editor + sidebar counts on the same live
+// Keep cinematic preview + Éditeur rapide + sidebar counts on the same live
 // selectedMap / database order. Either surface can edit; both must reflect it.
 function syncEditorViews(opts) {
   const o = opts || {};
@@ -4115,7 +4115,7 @@ function bindGlobalEvents() {
     });
   }
 
-  // Reorder toggle
+  // Réorganiser toggle
   const btnReorder = document.getElementById('btn-reorder-toggle');
   if (btnReorder) {
     btnReorder.addEventListener('click', () => {
@@ -4128,7 +4128,7 @@ function bindGlobalEvents() {
       const subtitleEl = document.getElementById('view-subtitle');
       if (subtitleEl && !isGuideActive && !isPreviewActive) {
         if (reorderMode) {
-          subtitleEl.textContent = 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Reorder again to finish.';
+          subtitleEl.textContent = 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Réorganiser again to finish.';
         } else {
           const stats = getCategorySelectionStats(currentCategoryIdx);
           subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
@@ -4224,7 +4224,7 @@ function bindGlobalEvents() {
   });
 
   document.getElementById('title-screen-customize')?.addEventListener('click', () => {
-    // Quick Editor card (checklist)
+    // Éditeur rapide card (checklist)
     openSimpleEditor();
   });
 
@@ -4431,7 +4431,7 @@ function backToCinematicEditor() {
   document.getElementById('simple-editor-overlay')?.classList.remove('open');
   hideTitleScreen();
   isPreviewActive = true;
-  // Rebuild preview from the same selectedMap the Quick Editor just edited.
+  // Rebuild preview from the same selectedMap the Éditeur rapide just edited.
   renderSidebar();
   renderPreviewCollection();
   updateControlCenterStats();
@@ -4769,8 +4769,8 @@ function seSend() {
   try { compiled = assembleFilteredDatabase(); } catch (e) { /* ignore */ }
   if (!compiled.length) { showToast('Pick at least one folder before sending.', 'error'); return; }
 
-  // Close the Quick Editor before opening wizard/compat overlays — they sit
-  // at lower z-indexes (200/250) than the Quick Editor overlay (900) and would
+  // Close the Éditeur rapide before opening wizard/compat overlays — they sit
+  // at lower z-indexes (200/250) than the Éditeur rapide overlay (900) and would
   // otherwise appear hidden behind it.
   document.getElementById('simple-editor-overlay')?.classList.remove('open');
   hideTitleScreen();
@@ -5379,7 +5379,7 @@ async function performQuickPush() {
     const { profileId } = saved;
     // Token lives in sessionStorage, not localStorage - see the note in wizard.js.
     // A new tab or a returning visitor has no token and is sent back through
-    // Send to Nuvio to sign in again.
+    // Envoyer vers NuVio to sign in again.
     let token = null;
     try { token = sessionStorage.getItem('kaptain_push_token'); } catch (e) {}
     if (!token || !profileId) throw new Error('no_auth');
@@ -5465,7 +5465,7 @@ function _buildCommandRegistry() {
   reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Send to Nuvio', keywords: ['send', 'push', 'nuvio', 'upload', 'stream'], icon: '📡', group: 'Actions', action: () => handleSendToNuvioClick() });
-  reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
+  reg.push({ label: 'Enregistrer le fichier', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
   reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
   reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
   return reg;

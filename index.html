@@ -73,7 +73,7 @@
         <div class="title-screen-hero-layout">
           <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="New to Nuvio: full guided setup with region, genres, and streaming picks">
             <span class="hero-btn-icon">⚡</span>
-            <span class="hero-btn-text">Set Up &amp; Send to Nuvio</span>
+            <span class="hero-btn-text">Set Up &amp; Envoyer vers NuVio</span>
             <span class="hero-btn-arrow">→</span>
           </button>
           
@@ -185,7 +185,7 @@
                   <h4 class="port-card-title">Studio de profil</h4>
                   <p class="port-card-desc">Vous avez déjà un profil NuVio ? Connectez-vous pour réorganiser ses catégories et sélectionner les dossiers de la collection.</p>
                   <div class="port-steps-preview">
-                    <span>Reorder</span> &bull; <span>Cherry-Pick</span> &bull; <span>Save</span>
+                    <span>Réorganiser</span> &bull; <span>Cherry-Pick</span> &bull; <span>Save</span>
                   </div>
                 </div>
                 <div class="port-card-action">
@@ -355,7 +355,7 @@
           <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
           <span>Bingecat</span>
         </button>
-        <button id="se-send" class="se-send-btn">Send to Nuvio</button>
+        <button id="se-send" class="se-send-btn">Envoyer vers NuVio</button>
       </div>
     </div>
     <div class="se-body">
@@ -474,8 +474,8 @@
                 <rect x="14" y="14" width="7" height="7"></rect>
                 <rect x="3" y="14" width="7" height="7"></rect>
               </svg>
-              <select id="viewmode-select" class="topbar-select" title="View mode applied to your collection. Follow Layout (Auto) is the default.">
-                <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
+              <select id="viewmode-select" class="topbar-select" title="View mode applied to your collection. Disposition auto is the default.">
+                <option value="FOLLOW_LAYOUT" selected>Disposition auto</option>
                 <option value="ROWS">Rows</option>
                 <option value="TABBED_GRID">Tabbed Grid</option>
               </select>
@@ -497,7 +497,7 @@
             <div id="reorder-container" class="topbar-control-combo browse-only">
               <button id="btn-reorder-toggle" class="cat-action-btn reorder-toggle" title="Drag-free reordering: show up/down arrows to move items">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:13px;height:13px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-                <span>Reorder</span>
+                <span>Réorganiser</span>
               </button>
             </div>
             <div id="zoom-container" class="zoom-control-combo browse-only" title="Adjust card size">
@@ -513,7 +513,7 @@
         </div>
         <div id="reorder-banner" class="reorder-mode-banner" hidden>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-          <span>Move things around — use ↑ ↓ on each row. Click Reorder again when you're done.</span>
+          <span>Move things around — use ↑ ↓ on each row. Click Réorganiser again when you're done.</span>
         </div>
       </header>
 
@@ -537,21 +537,21 @@
           <div class="control-actions-combo">
             <button id="btn-compile-download" class="btn-secondary" title="Download your customized collection">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:14px;height:14px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
-              <span>Save File</span>
+              <span>Enregistrer le fichier</span>
             </button>
             <button id="btn-bingecat-export" class="btn-secondary btn-bingecat" title="Export this selection for Bingecat's addon">
               <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
               <span>Bingecat</span>
             </button>
             <button id="btn-selfhost-export" class="btn-secondary btn-bingecat" title="Export this selection for Métadonnées AIO Self-Host">
-              <span>💾 Self-Host</span>
+              <span>💾 Auto-hébergement</span>
             </button>
             <button id="btn-open-profile-studio" class="btn-secondary btn-profile-studio" title="Organize your TV profile rows and cherry-pick folders">
               <span>🎛️ Studio de profil</span>
             </button>
             <button id="btn-send-to-nuvio" class="btn-primary" title="Send your collection straight to your Nuvio account" style="position:relative;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
-              <span>Send to Nuvio</span>
+              <span>Envoyer vers NuVio</span>
               <span class="sync-dot" id="sync-dot"></span>
             </button>
           </div>
@@ -629,22 +629,22 @@
         <button type="button" class="compat-device-btn active" data-device="tv" id="compat-dev-tv">
           <span class="compat-dev-icon">📺</span>
           <span class="compat-dev-name">TV</span>
-          <span class="compat-dev-tag">Follow Layout</span>
+          <span class="compat-dev-tag">Disposition</span>
         </button>
         <button type="button" class="compat-device-btn" data-device="mobile" id="compat-dev-mobile">
           <span class="compat-dev-icon">📱</span>
           <span class="compat-dev-name">Mobile</span>
-          <span class="compat-dev-tag">Phone layout</span>
+          <span class="compat-dev-tag">Mobile layout</span>
         </button>
         <button type="button" class="compat-device-btn" data-device="both" id="compat-dev-both">
           <span class="compat-dev-icon">📺📱</span>
           <span class="compat-dev-name">Both</span>
-          <span class="compat-dev-tag">TV &amp; Phone</span>
+          <span class="compat-dev-tag">TV &amp; Mobile</span>
         </button>
       </div>
 
       <div id="compat-rows-warning" style="display:none;">
-        <p class="compat-body" id="compat-rows-body">Follow Layout looks best on TV, but phone screens scroll smoother with <strong>Tabbed Grid</strong>.</p>
+        <p class="compat-body" id="compat-rows-body">Disposition looks best on TV, but phone screens scroll smoother with <strong>Tabbed Grid</strong>.</p>
         <label class="compat-check-row">
           <input type="checkbox" id="compat-optimize-check" checked>
           <span id="compat-check-text">Switch to Tabbed Grid (recommended for mobile)</span>
@@ -921,7 +921,7 @@
           <input type="password" id="account-key-mdblist" class="account-input" autocomplete="off" spellcheck="false">
         </label>
         <label class="account-label">Nuvio email
-          <span class="account-tip" tabindex="0" data-tip="Fills in automatically on the Send to Nuvio login step. Stored only in this browser, scrambled with your save password.">?</span>
+          <span class="account-tip" tabindex="0" data-tip="Fills in automatically on the Envoyer vers NuVio login step. Stored only in this browser, scrambled with your save password.">?</span>
           <input type="email" id="account-key-nuvio-email" class="account-input" autocomplete="off" spellcheck="false">
         </label>
         <label class="account-label">Nuvio password
