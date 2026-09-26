@@ -1936,7 +1936,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-ERFS5GWK",
-    "title": "Services de diffusion en continu",
+    "title": "Services de Stream",
     "folders": [
       {
         "id": "folder-WFGY1XPD",
@@ -28975,7 +28975,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-3UOL2OFV",
-    "title": "Humeurs et vibrations",
+    "title": "Humeurs",
     "viewMode": "FOLLOW_LAYOUT",
     "pinToTop": true,
     "showAllTab": true,
@@ -55762,7 +55762,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-XB14SDA2",
-    "title": "Ateliers",
+    "title": "Studios",
     "folders": [
       {
         "id": "folder-ZDYYVMWR",
