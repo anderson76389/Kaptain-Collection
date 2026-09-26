@@ -5,7 +5,7 @@
   
   let currentStep = 1;
   const TOTAL_STEPS = 5;
-  const STEP_NAMES = ['Region & Lang', 'Filters', 'Categories', 'Streaming', 'Networks'];
+  const STEP_NAMES = ['Région & Langue', 'Filters', 'Categories', 'Streaming', 'Networks'];
   
   const REGION_OPTIONS = [
     { code: 'US', flag: '🇺🇸', label: 'United States' },
@@ -320,11 +320,11 @@
         <div class="cust-step-footer">
           <button type="button" class="cust-btn-back" id="cust-btn-prev" ${currentStep === 1 ? 'disabled' : ''}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-            <span>Back</span>
+            <span>Retour</span>
           </button>
           
           <button type="button" class="cust-btn-next" id="cust-btn-next">
-            <span>${currentStep === TOTAL_STEPS ? 'Apply & Build Setup' : 'Continue'}</span>
+            <span>${currentStep === TOTAL_STEPS ? 'Apply & Build Setup' : 'Continuer'}</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
           </button>
         </div>
@@ -347,7 +347,7 @@
           <div class="cust-field-main">
             <div class="cust-field-labels">
               <label for="cust-country" class="cust-field-title">Your Region</label>
-              <p class="cust-field-hint">Prioritizes streaming catalogs and regional availability for your country</p>
+              <p class="cust-field-hint">Priorise les catalogues et la disponibilité selon votre pays</p>
             </div>
             <div class="cust-select-wrap">
               <select id="cust-country" class="cust-select">
@@ -368,7 +368,7 @@
           <div class="cust-field-main">
             <div class="cust-field-labels">
               <label for="cust-locale" class="cust-field-title">Interface & Catalog Language</label>
-              <p class="cust-field-hint">Translates folder names and discovery metadata where supported</p>
+              <p class="cust-field-hint">Traduit les noms de dossiers et les métadonnées lorsque disponible</p>
             </div>
             <div class="cust-select-wrap">
               <select id="cust-locale" class="cust-select">
@@ -400,7 +400,7 @@
           <div class="cust-field-main cust-toggle-main">
             <div class="cust-field-labels">
               <span class="cust-field-title">Include Foreign-Language Content</span>
-              <p class="cust-field-hint">When off, main discovery rows only show content in your chosen language</p>
+              <p class="cust-field-hint">Si désactivé, seules les œuvres dans votre langue sélectionnée apparaîtront</p>
             </div>
             <label class="cust-switch" title="Toggle foreign content">
               <input type="checkbox" id="cust-foreign" ${window.customizeState.foreignNative ? 'checked' : ''}>
@@ -410,7 +410,7 @@
         </div>
       </div>
     `;
-    body.innerHTML = getStepWrapper('Region & Language', 'Set your local preferences and region priorities.', html);
+    body.innerHTML = getStepWrapper('Région & Langue', 'Définissez vos préférences régionales et linguistiques.', html);
     bindNav();
     
     document.getElementById('cust-country').addEventListener('change', (e) => {
