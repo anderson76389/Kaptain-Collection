@@ -19,20 +19,14 @@
     })();
   </script>
 
-<style id="custom-clean-style">
-  /* Masquage de l'icône/logo en haut de la barre latérale */
+<style id="custom-clean">
   .brand-icon, .brand-logo, .sidebar-brand img, .sidebar-brand svg, 
-  .sidebar-header img, .sidebar-header svg, [class*="logo-icon"] {
-      display: none !important;
-  }
-  /* Masquage des boutons Support, Tips et Shortcuts */
-  #shortcuts-btn, [data-action="shortcuts"], .shortcuts-btn,
-  #support-btn, [data-action="support"], .support-btn,
+  .sidebar-header img, .sidebar-header svg { display: none !important; }
+  [data-action="shortcuts"], .shortcuts-btn, #shortcuts-btn,
+  [data-action="support"], .support-btn, #support-btn,
   a[href*="ko-fi"], a[href*="kofi"], a[href*="paypal"],
   .sidebar-footer .footer-link:has(.fa-keyboard),
-  .sidebar-footer .footer-link:has(.fa-heart) {
-      display: none !important;
-  }
+  .sidebar-footer .footer-link:has(.fa-heart) { display: none !important; }
 </style>
 </head>
 
@@ -971,7 +965,7 @@
   <script src="collections/test-channels.js?v=93"></script>
   <script src="collections/preview_posters.js?v=1"></script>
   <script>
-    window.MA COLLECTION_BINGECAT_IMPORT_ENDPOINT = 'https://bingecat.com/integrations/kaptain/collections';
+    window.KAPTAIN_BINGECAT_IMPORT_ENDPOINT = 'https://bingecat.com/integrations/kaptain/collections';
   </script>
   <script src="account-config.js?v=1"></script>
   <!-- For local cloud testing, copy account-config.local.example.js to account-config.local.js and uncomment:
@@ -981,7 +975,7 @@
   <script src="customize.js?v=92.2"></script>
   <script src="app.js?v=92.2"></script>
   <script src="nuvio-push.js?v=92.2"></script>
-  <script>window.MA COLLECTION_ASSET_VERSION = 92.4;</script>
+  <script>window.KAPTAIN_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=92.4"></script>
   <script src="account-ui.js?v=92.2"></script>
   <script src="profile-studio.js?v=92.2"></script>
