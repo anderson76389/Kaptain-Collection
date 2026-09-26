@@ -28982,7 +28982,7 @@
     "folders": [
       {
         "id": "folder-W52X6SMF",
-        "title": "Feel-Good et réconfortant",
+        "title": "Cozy & Comfort",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/Feel-Good-and-comforting/v2/Feel-Good-and-comforting-cover.png",
@@ -29013,7 +29013,7 @@
           },
           {
             "id": "src-7PMKMI95",
-            "title": "Séries Feel-Good (Comédies & Drames)",
+            "title": "Comforting TV Comedies & Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -29026,12 +29026,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Séries Feel-Good (Comédies & Drames)",
-            "name": "Séries Feel-Good (Comédies & Drames)"
+            "genre": "Comforting TV Comedies & Dramas",
+            "name": "Comforting TV Comedies & Dramas"
           },
           {
             "id": "src-1HHL2R9R",
-            "title": "Romances douces & chaleureuses",
+            "title": "Cozy Romantic Stories",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29052,7 +29052,7 @@
           },
           {
             "id": "src-W9CGV995",
-            "title": "Incontournables Feel-Good",
+            "title": "Acclaimed Feel-Good Classics",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29066,12 +29066,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Incontournables Feel-Good",
-            "name": "Incontournables Feel-Good"
+            "genre": "Acclaimed Feel-Good Classics",
+            "name": "Acclaimed Feel-Good Classics"
           },
           {
             "id": "src-VY164913",
-            "title": "Animation Feel-Good",
+            "title": "Cozy Animated Favorites",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29082,12 +29082,12 @@
               "voteCountGte": 75,
               "vote_count.gte": 75
             },
-            "genre": "Animation Feel-Good",
-            "name": "Animation Feel-Good"
+            "genre": "Cozy Animated Favorites",
+            "name": "Cozy Animated Favorites"
           },
           {
             "id": "src-SWETRLWO",
-            "title": "Nouveautés Feel-Good",
+            "title": "Recent Cozy Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29103,8 +29103,8 @@
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
             },
-            "genre": "Nouveautés Feel-Good",
-            "name": "Nouveautés Feel-Good"
+            "genre": "Recent Cozy Releases",
+            "name": "Recent Cozy Releases"
           }
         ]
       },

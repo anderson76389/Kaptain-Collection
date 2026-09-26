@@ -40324,7 +40324,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Heartwarming TV Comedies & Dramas",
-    "name": "Séries Feel-Good (Comédies & Drames)",
+    "name": "Comforting TV Comedies & Dramas",
     "type": "series",
     "source": "tmdb",
     "metadata": {
@@ -40356,7 +40356,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Feel-Good Romantic Stories",
-    "name": "Romances douces & chaleureuses",
+    "name": "Cozy Romantic Stories",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40390,7 +40390,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Acclaimed Feel-Good Classics",
-    "name": "Incontournables Feel-Good",
+    "name": "Acclaimed Feel-Good Classics",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40423,7 +40423,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Feel-Good Animated Favorites",
-    "name": "Animation Feel-Good",
+    "name": "Cozy Animated Favorites",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -40455,7 +40455,7 @@
     "collectionTitle": "Moods & Vibes",
     "folderTitle": "Feel-Good & Comforting",
     "sourceTitle": "Recent Feel-Good Releases",
-    "name": "Nouveautés Feel-Good",
+    "name": "Recent Cozy Releases",
     "type": "movie",
     "source": "tmdb",
     "metadata": {
@@ -41070,7 +41070,7 @@
   {
     "id": "tmdb.discover.feelgood_uplifting_inspiring_movies",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Uplifting & Inspiring Movies",
     "name": "Films édifiants et inspirants",
     "type": "movie",
@@ -41102,7 +41102,7 @@
   {
     "id": "tmdb.discover.feelgood_joyful_comedy_tv_series",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Joyful Comedy TV Series",
     "name": "Série télévisée de comédie joyeuse",
     "type": "series",
@@ -41134,7 +41134,7 @@
   {
     "id": "tmdb.discover.feelgood_inspiring_true_stories",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Inspiring True Stories",
     "name": "Des histoires vraies inspirantes",
     "type": "movie",
@@ -41167,7 +41167,7 @@
   {
     "id": "tmdb.discover.feelgood_road_trips_buddy_comedies",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Road Trips & Buddy Comedies",
     "name": "Road trips et comédies entre amis",
     "type": "movie",
@@ -41200,7 +41200,7 @@
   {
     "id": "tmdb.discover.feelgood_top_rated_feelgood_classics",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Top Rated Feel-Good Classics",
     "name": "Classiques de bien-être les mieux notés",
     "type": "movie",
@@ -41233,7 +41233,7 @@
   {
     "id": "tmdb.discover.feelgood_recent_feelgood_releases",
     "collectionTitle": "Moods & Vibes",
-    "folderTitle": "Feel-Good",
+    "folderTitle": "Cozy",
     "sourceTitle": "Recent Feel-Good Releases",
     "name": "Sorties récentes de bien-être",
     "type": "movie",
