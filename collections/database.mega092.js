@@ -10293,8 +10293,8 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-MGL02SER",
-            "title": "Docuseries",
-            "name": "Docuseries",
+            "title": "Séries documentaires",
+            "name": "Séries documentaires",
             "genre": "Docuseries",
             "provider": "tmdb",
             "mediaType": "TV",
