@@ -3069,7 +3069,11 @@
           const key = `${entry.id}::${entry.type}`;
           if (!seenGeneric.has(key)) {
             seenGeneric.add(key);
-            allGenericEntries.push(entry);
+            const localizedEntry = Object.assign({}, entry, {
+              name: s.name || s.title || entry.name,
+              sourceTitle: s.title || s.name || entry.sourceTitle
+            });
+            allGenericEntries.push(localizedEntry);
           }
         });
       });
