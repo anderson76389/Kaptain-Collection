@@ -2909,16 +2909,33 @@
     return [];
   }
 
-  function aioBuildTemplateIndex(template) {
+    function aioBuildTemplateIndex(template) {
     const index = new Map();
+    const norm = s => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     (Array.isArray(template) ? template : []).forEach((entry) => {
+      if (!entry) return;
       index.set(`${entry.collectionTitle}|||${entry.folderTitle}|||${entry.sourceTitle}`, entry);
+      const normKey = `${norm(entry.collectionTitle)}|||${norm(entry.folderTitle)}|||${norm(entry.sourceTitle)}`;
+      index.set(normKey, entry);
+      const partialKey = `${norm(entry.folderTitle)}|||${norm(entry.sourceTitle)}`;
+      if (!index.has(partialKey)) index.set(partialKey, entry);
     });
+    index._norm = norm;
     return index;
   }
 
   function aioTemplateLookup(templateIndex, colTitle, folderTitle, sourceTitle) {
-    return templateIndex.get(`${colTitle}|||${folderTitle}|||${sourceTitle}`) || null;
+    if (!templateIndex) return null;
+    let hit = templateIndex.get(`${colTitle}|||${folderTitle}|||${sourceTitle}`);
+    if (hit) return hit;
+    if (templateIndex._norm) {
+      const norm = templateIndex._norm;
+      hit = templateIndex.get(`${norm(colTitle)}|||${norm(folderTitle)}|||${norm(sourceTitle)}`);
+      if (hit) return hit;
+      hit = templateIndex.get(`${norm(folderTitle)}|||${norm(sourceTitle)}`);
+      if (hit) return hit;
+    }
+    return null;
   }
 
   // Re-adds the constant boilerplate fields the published template strips out
